@@ -1,0 +1,282 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Git/dnvgl/DNVGL.SolutionPackage/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.AuthenticationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.AuthenticationExtensions.html",
+          "hash": "PrM/4RjwYnBlpO9isW5Ksw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.JwtOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.JwtOptions.html",
+          "hash": "WzAEgSJtS18kp+MhU60WCw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.OidcOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.OidcOptions.html",
+          "hash": "ndtTG1P3xAieQ0INqK+8Hw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.Swagger.SwaggerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.Swagger.SwaggerExtensions.html",
+          "hash": "IZwhAgja8/KsWopyK/Fdzg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.Swagger.SwaggerOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.Swagger.SwaggerOption.html",
+          "hash": "V86p0FXZzXcNtx/OvDctAw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.Swagger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.Swagger.html",
+          "hash": "0U/ImO2iy9QqeyIudyBffA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.html",
+          "hash": "OSKryxqFDHz+DQQ/2QkBvQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.html",
+          "hash": "Uvh++iE5AqNytVAwx2bHww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.html",
+          "hash": "EmCx8Nu+nDN0ccg4HJj+7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.html",
+          "hash": "KtawgQaWWYrOgv44+gh0Lg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.html",
+          "hash": "g+RlSVPlVrnzl1oGBv3IRg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.html",
+          "hash": "MIchH//H+WywXdTW8r7btA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.html",
+          "hash": "0ean+EFHhU37WbyaO+WiUQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "0vGN8WcgTRE8Bro/+wywUQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "h5X+i6AdBnKwb/eLNNHjkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "oJDPT875C4fxJ93nqHInAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "+ASi1cNdrAJmMIpy1mjSAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "5mV7Kdlw6qo63Y4uljwLnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 13,
+          "skipped_file_count": 13
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
