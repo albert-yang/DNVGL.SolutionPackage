@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.html",
-          "hash": "OSKryxqFDHz+DQQ/2QkBvQ=="
+          "hash": "ISauIiK7rw0EhY+XhNS+YA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "MIchH//H+WywXdTW8r7btA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -251,7 +251,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 13,
-          "skipped_file_count": 13
+          "skipped_file_count": 12
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
