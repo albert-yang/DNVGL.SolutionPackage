@@ -12,7 +12,7 @@
           "hash": "/qi0Vclie3wiFBWVUr/6EA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/DNVGL.OAuth.Web.html",
-          "hash": "+Ac8NMAyeDDpgjoQkShImg=="
+          "hash": "dqI48pWpLHFFYFpKV7HEig=="
         }
       },
       "is_incremental": false,
@@ -39,7 +39,7 @@
           "hash": "NGDXnHy7rWUsYfJ263foqA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "gB8AESyvNru97tzIZofEEg=="
+          "hash": "qQBtR3juHmvW7rbX2Htr9g=="
         }
       },
       "is_incremental": false,
@@ -96,7 +96,7 @@
           "hash": "mRMS77DU+qUA9g3k4kwTiA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -115,19 +115,17 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
@@ -147,8 +145,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

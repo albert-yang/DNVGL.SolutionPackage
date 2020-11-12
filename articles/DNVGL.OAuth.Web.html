@@ -67,10 +67,10 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-
-<p>[TOC]</p>
 <h1 id="overview">Overview</h1>
+
 <p>DNVGL.OAuth.Web is a .NETCore library for developers to simplify the work of setting up OpenId Connection authentication (OIDC) such as Veracity or Azure AD B2C for ASP.NET Core web project.</p>
+<hr>
 <h1 id="package-install">Package Install</h1>
 <p>To install the DNVGL.OAuth.Web package, you may need to add the package feed below to your nuget sources.</p>
 <pre><code>https://dnvgl-one.pkgs.visualstudio.com/_packaging/DNVGL.SolutionPackage/nuget/v3/index.json
@@ -78,7 +78,8 @@
 <p><img src="../images/DNVGL.OAuth.Web/adding-feed.png" alt=""></p>
 <p>Search nuget package of DNVGL.OAuth.Web and add it to your project.
 <img src="../images/DNVGL.OAuth.Web/download-package.png" alt=""></p>
-<h1 id="basic-usage">Basic Usage</h1>
+<hr>
+<h1 id="basic-authentication-usage">Basic Authentication Usage</h1>
 <p>To simplify your authentication implementation of Veracity for your ASP.NET Core web project, you need to add 3 blocks of codes to <code>Startup.cs</code>.</p>
 <ol>
 <li>Add namespace reference.</li>
@@ -116,6 +117,77 @@
 <li>Then you could launch your project and access an action in a controller that decorated with <code>[Authorize]</code>, a challenge request will be sent to IDP(Microsoft or Veracity) to start the authentication process, and the <code>HttpContext</code> will be filled with authentication result.</li>
 </ol>
 <p><img src="../images/DNVGL.OAuth.Web/challenge.png" alt=""></p>
+<ol start="5">
+<li>A sample project is ready for you to try out: <a href="//SimpleOidc">SimpleOidc</a>.</li>
+</ol>
+<hr>
+<h1 id="access-token-cache-usage">Access Token Cache Usage</h1>
+<p>If you web project act as an API gateway, you will want to cache users' access tokens to prevent unnecessary token requests. The library uses <code>MSAL (Microsoft Authentication Library)</code> to manipulate tokens.</p>
+<ol>
+<li>Authorization code flow needs to be set to acquire access token, and refresh token is required for MSAL to re-acquire token from IDP if the token exceed its expiration.</li>
+</ol>
+<pre><code class="lang-csharp">public void ConfigureServices(IServiceCollection services)
+{
+	...
+	var oidcOptions = new OidcOptions
+	{
+		TenantId = &quot;&lt;TenantId&gt;&quot;,
+		SignInPolicy = &quot;b2c_1a_signinwithadfsidp&quot;,
+		ClientId = &quot;&lt;ClientId&gt;&quot;,
+		ClientSecret = &quot;&lt;ClientSecret&gt;&quot;,
+		Scopes = new[] { &quot;&lt;Scope&gt;&quot;, &quot;offline_access&quot; },	// offline_access is required to retrieve refresh_token.
+		CallbackPath = &quot;/signin-oidc&quot;,
+		ResponseType = OpenIdConnectResponseType.Code
+	};
+	...
+}
+</code></pre>
+<ol start="2">
+<li>To cache the tokens, an implementaion of <code>IDistributedCache</code> such as <code>MemoryDistributedCache</code> needs to be added.</li>
+</ol>
+<pre><code class="lang-csharp">public void ConfigureServices(IServiceCollection services)
+{
+	...
+	services.AddDistributedMemoryCache();
+	...
+}
+</code></pre>
+<p>You can also add <code>RedisCache</code> instead.</p>
+<pre><code class="lang-csharp">public void ConfigureServices(IServiceCollection services)
+{
+	...
+	services.AddDistributedRedisCache(o =&gt;
+	{
+		o.InstanceName = &quot;&lt;InstanceName&gt;&quot;;
+		o.Configuration = &quot;&lt;Configuration&gt;&quot;;
+	});
+	...
+}
+</code></pre>
+<ol start="3">
+<li>Calling <code>AddDistributedTokenCache</code> will have <code>IDistributedCache</code> attached to MSAL client app behind the scene, and the token acquiring process will be replaced by MSAL client app.</li>
+</ol>
+<pre><code class="lang-csharp">public void ConfigureServices(IServiceCollection services)
+{
+	...
+	services.AddDistributedTokenCache(oidcOptions);
+	...
+}
+</code></pre>
+<ol start="4">
+<li>Don't forget to add <code>AddOidc</code> after what you did previously.</li>
+</ol>
+<pre><code class="lang-csharp">public void ConfigureServices(IServiceCollection services)
+{
+	...
+	services.AddOidc(oidcOptions);
+	...
+}
+</code></pre>
+<ol start="5">
+<li>A sample project is ready for you to try out: <a href="//TokenCacheDemo">TokenCacheDemo</a>.</li>
+</ol>
+<hr>
 </article>
           </div>
           
