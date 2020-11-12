@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>PLACEHOLDER </title>
+    <title>Overview </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="PLACEHOLDER ">
+    <meta name="title" content="Overview ">
     <meta name="generator" content="docfx 2.56.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     
     
@@ -57,12 +57,65 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="placeholder">PLACEHOLDER</h1>
 
-<p>TODO: Add .NET projects to the <em>src</em> folder and run <code>docfx</code> to generate <strong>REAL</strong> <em>API Documentation</em>!</p>
+<p>[TOC]</p>
+<h1 id="overview">Overview</h1>
+<p>DNVGL.OAuth.Web is a .NETCore library for developers to simplify the work of setting up OpenId Connection authentication (OIDC) such as Veracity or Azure AD B2C for ASP.NET Core web project.</p>
+<h1 id="package-install">Package Install</h1>
+<p>To install the DNVGL.OAuth.Web package, you may need to add the package feed below to your nuget sources.</p>
+<pre><code>https://dnvgl-one.pkgs.visualstudio.com/_packaging/DNVGL.SolutionPackage/nuget/v3/index.json
+</code></pre>
+<p><img src="../images/DNVGL.OAuth.Web/adding-feed.png" alt=""></p>
+<p>Search nuget package of DNVGL.OAuth.Web and add it to your project.
+<img src="../images/DNVGL.OAuth.Web/download-package.png" alt=""></p>
+<h1 id="basic-usage">Basic Usage</h1>
+<p>To simplify your authentication implementation of Veracity for your ASP.NET Core web project, you need to add 3 blocks of codes to <code>Startup.cs</code>.</p>
+<ol>
+<li>Add namespace reference.</li>
+</ol>
+<pre><code class="lang-csharp">using DNVGL.OAuth.Web;
+</code></pre>
+<ol start="2">
+<li>Add <code>AddOidc</code> extension method to <code>ConfigureServices</code>.</li>
+</ol>
+<pre><code class="lang-csharp">public void ConfigureServices(IServiceCollection services)
+{
+	...
+	services.AddOidc(o =&gt;
+	{
+		o.TenantId = &quot;&lt;TenantId&gt;&quot;;
+		o.SignInPolicy = &quot;b2c_1a_signinwithadfsidp&quot;;
+		o.ClientId = &quot;&lt;ClientId&gt;&quot;;
+		o.Scopes = new[] { &quot;&lt;Scope&gt;&quot; };
+		o.CallbackPath = &quot;/signin-oidc&quot;;
+	});
+	...
+}
+</code></pre>
+<ol start="3">
+<li>Add <code>UseAuthentication</code> and <code>UseAuthorization</code> extension methods to <code>Configure</code>.</li>
+</ol>
+<pre><code class="lang-csharp">public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+	...
+	app.UseAuthentication().UseAuthorization();
+	...
+}
+</code></pre>
+<ol start="4">
+<li>Then you could launch your project and access an action in a controller that decorated with <code>[Authorize]</code>, a challenge request will be sent to IDP(Microsoft or Veracity) to start the authentication process, and the <code>HttpContext</code> will be filled with authentication result.</li>
+</ol>
+<p><img src="../images/DNVGL.OAuth.Web/challenge.png" alt=""></p>
 </article>
           </div>
           
@@ -71,7 +124,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=docfx_project/api/index.md&amp;version=GBdoc&amp;line=1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=docfx_project/articles/DNVGL.OAuth.Web.md&amp;version=GBdoc&amp;line=1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

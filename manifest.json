@@ -4,180 +4,27 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.AuthenticationExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.AuthenticationExtensions.html",
-          "hash": "PrM/4RjwYnBlpO9isW5Ksw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.JwtOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.JwtOptions.html",
-          "hash": "WzAEgSJtS18kp+MhU60WCw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.OidcOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.OidcOptions.html",
-          "hash": "ndtTG1P3xAieQ0INqK+8Hw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.Swagger.SwaggerExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.Swagger.SwaggerExtensions.html",
-          "hash": "IZwhAgja8/KsWopyK/Fdzg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.Swagger.SwaggerOption.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.Swagger.SwaggerOption.html",
-          "hash": "V86p0FXZzXcNtx/OvDctAw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.Swagger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.Swagger.html",
-          "hash": "0U/ImO2iy9QqeyIudyBffA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.html",
-          "hash": "ISauIiK7rw0EhY+XhNS+YA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.html",
-          "hash": "Uvh++iE5AqNytVAwx2bHww=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.html",
-          "hash": "EmCx8Nu+nDN0ccg4HJj+7w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.html",
-          "hash": "KtawgQaWWYrOgv44+gh0Lg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.html",
-          "hash": "g+RlSVPlVrnzl1oGBv3IRg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.html",
-          "hash": "MIchH//H+WywXdTW8r7btA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.html",
-          "hash": "0ean+EFHhU37WbyaO+WiUQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "0vGN8WcgTRE8Bro/+wywUQ=="
+          "hash": "/qi0Vclie3wiFBWVUr/6EA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/DNVGL.OAuth.Web.md",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "h5X+i6AdBnKwb/eLNNHjkQ=="
+          "relative_path": "articles/DNVGL.OAuth.Web.html",
+          "hash": "+Ac8NMAyeDDpgjoQkShImg=="
         }
       },
       "is_incremental": false,
@@ -189,10 +36,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "oJDPT875C4fxJ93nqHInAA=="
+          "hash": "NGDXnHy7rWUsYfJ263foqA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -208,15 +55,48 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/DNVGL.OAuth.Web/add-feed.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DNVGL.OAuth.Web/add-feed.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DNVGL.OAuth.Web/challenge.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DNVGL.OAuth.Web/challenge.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DNVGL.OAuth.Web/download-package.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DNVGL.OAuth.Web/download-package.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "+ASi1cNdrAJmMIpy1mjSAQ=="
+          "hash": "mRMS77DU+qUA9g3k4kwTiA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "5mV7Kdlw6qo63Y4uljwLnA=="
+          "hash": "afYq71vzAKeFW3FYDhinmw=="
         }
       },
       "is_incremental": false,
@@ -235,23 +115,26 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
+          "total_file_count": 4,
+          "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 13,
-          "skipped_file_count": 12
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -264,8 +147,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
