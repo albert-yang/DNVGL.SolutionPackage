@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ClaimsPrincipalExtension
+    <title>Class ConfigurationExtensions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ClaimsPrincipalExtension
+    <meta name="title" content="Class ConfigurationExtensions
    ">
     <meta name="generator" content="docfx 2.51.0.0">
     
@@ -68,38 +68,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension">
+            <article class="content wrap" id="_content" data-uid="DNVGL.OAuth.Api.HttpClient.Extensions.ConfigurationExtensions">
   
   
-  <h1 id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension" data-uid="DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension" class="text-break">Class ClaimsPrincipalExtension
+  <h1 id="DNVGL_OAuth_Api_HttpClient_Extensions_ConfigurationExtensions" data-uid="DNVGL.OAuth.Api.HttpClient.Extensions.ConfigurationExtensions" class="text-break">Class ConfigurationExtensions
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ClaimsPrincipalExtension</span></div>
+    <div class="level1"><span class="xref">ConfigurationExtensions</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DNVGL.OAuth.Web.TokenCache.html">DNVGL.OAuth.Web.TokenCache</a></h6>
-  <h6><strong>Assembly</strong>: DNVGL.OAuth.Web.dll</h6>
-  <h5 id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DNVGL.OAuth.Api.HttpClient.Extensions.html">DNVGL.OAuth.Api.HttpClient.Extensions</a></h6>
+  <h6><strong>Assembly</strong>: DNVGL.OAuth.Api.HttpClient.dll</h6>
+  <h5 id="DNVGL_OAuth_Api_HttpClient_Extensions_ConfigurationExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ClaimsPrincipalExtension : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ConfigurationExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/ClaimsPrincipalExtension.cs&amp;version=GBmaster&amp;line=17">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.UserCredentials/Extensions/ConfigurationExtensions.cs&amp;version=GBmaster&amp;line=30">View Source</a>
   </span>
-  <a id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetMsalAccountId_" data-uid="DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId*"></a>
-  <h4 id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetMsalAccountId_ClaimsPrincipal_DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_" data-uid="DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId(ClaimsPrincipal,DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions)">GetMsalAccountId(ClaimsPrincipal, OpenIdConnectOptions)</h4>
-  <div class="markdown level1 summary"><p>Generates a MSAL Account Id from user claims and OIDC Options.</p>
+  <a id="DNVGL_OAuth_Api_HttpClient_Extensions_ConfigurationExtensions_AddOAuthHttpClientFactory_" data-uid="DNVGL.OAuth.Api.HttpClient.Extensions.ConfigurationExtensions.AddOAuthHttpClientFactory*"></a>
+  <h4 id="DNVGL_OAuth_Api_HttpClient_Extensions_ConfigurationExtensions_AddOAuthHttpClientFactory_IServiceCollection_Action_IEnumerable_DNVGL_OAuth_Api_HttpClient_OAuthHttpClientFactoryOptions___" data-uid="DNVGL.OAuth.Api.HttpClient.Extensions.ConfigurationExtensions.AddOAuthHttpClientFactory(IServiceCollection,Action{IEnumerable{DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactoryOptions}})">AddOAuthHttpClientFactory(IServiceCollection, Action&lt;IEnumerable&lt;OAuthHttpClientFactoryOptions&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add <a class="xref" href="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactory.html">OAuthHttpClientFactory</a> to the specified <see cref="!:IServiceCollection"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetMsalAccountId(this ClaimsPrincipal claimsPrincipal, OpenIdConnectOptions oidcOptions)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IServiceCollection AddOAuthHttpClientFactory(this IServiceCollection services, Action&lt;IEnumerable&lt;OAuthHttpClientFactoryOptions&gt;&gt; configureOptions)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -112,14 +112,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ClaimsPrincipal</span></td>
-        <td><span class="parametername">claimsPrincipal</span></td>
-        <td></td>
+        <td><span class="xref">IServiceCollection</span></td>
+        <td><span class="parametername">services</span></td>
+        <td><p>The <see cref="!:IServiceCollection"></see> to add the <a class="xref" href="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactory.html">OAuthHttpClientFactory</a> instance to.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html">OpenIdConnectOptions</a></td>
-        <td><span class="parametername">oidcOptions</span></td>
-        <td><p>The <a class="xref" href="DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_TenantId">TenantId</a> of the options should be in GUID format.</p>
+        <td><span class="xref">Action</span>&lt;<span class="xref">IEnumerable</span>&lt;<a class="xref" href="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactoryOptions.html">OAuthHttpClientFactoryOptions</a>&gt;&gt;</td>
+        <td><span class="parametername">configureOptions</span></td>
+        <td><p>A method to manipulate the default options.</p>
 </td>
       </tr>
     </tbody>
@@ -134,23 +135,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><span class="xref">IServiceCollection</span></td>
+        <td><p>The <see cref="!:IServiceCollection"></see> so that additional calls can be chained.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/ClaimsPrincipalExtension.cs&amp;version=GBmaster&amp;line=45">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.UserCredentials/Extensions/ConfigurationExtensions.cs&amp;version=GBmaster&amp;line=17">View Source</a>
   </span>
-  <a id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetObjectId_" data-uid="DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetObjectId*"></a>
-  <h4 id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetObjectId_ClaimsPrincipal_" data-uid="DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetObjectId(ClaimsPrincipal)">GetObjectId(ClaimsPrincipal)</h4>
-  <div class="markdown level1 summary"><p>Gets the <a href="http://schemas.microsoft.com/identity/claims/objectidentifier">oid</a> from user claims.</p>
+  <a id="DNVGL_OAuth_Api_HttpClient_Extensions_ConfigurationExtensions_AddOAuthHttpClientFactory_" data-uid="DNVGL.OAuth.Api.HttpClient.Extensions.ConfigurationExtensions.AddOAuthHttpClientFactory*"></a>
+  <h4 id="DNVGL_OAuth_Api_HttpClient_Extensions_ConfigurationExtensions_AddOAuthHttpClientFactory_IServiceCollection_IEnumerable_DNVGL_OAuth_Api_HttpClient_OAuthHttpClientFactoryOptions__" data-uid="DNVGL.OAuth.Api.HttpClient.Extensions.ConfigurationExtensions.AddOAuthHttpClientFactory(IServiceCollection,IEnumerable{DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactoryOptions})">AddOAuthHttpClientFactory(IServiceCollection, IEnumerable&lt;OAuthHttpClientFactoryOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add <a class="xref" href="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactory.html">OAuthHttpClientFactory</a> to the specified <see cref="!:IServiceCollection"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetObjectId(this ClaimsPrincipal claimsPrincipal)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IServiceCollection AddOAuthHttpClientFactory(this IServiceCollection services, IEnumerable&lt;OAuthHttpClientFactoryOptions&gt; options)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,9 +165,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ClaimsPrincipal</span></td>
-        <td><span class="parametername">claimsPrincipal</span></td>
-        <td></td>
+        <td><span class="xref">IServiceCollection</span></td>
+        <td><span class="parametername">services</span></td>
+        <td><p>The <see cref="!:IServiceCollection"></see> to add the <a class="xref" href="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactory.html">OAuthHttpClientFactory</a> instance to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactoryOptions.html">OAuthHttpClientFactoryOptions</a>&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td><p>A collection of configurations for the HttpClients produced by the factory.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -179,8 +188,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><span class="xref">IServiceCollection</span></td>
+        <td><p>The <see cref="!:IServiceCollection"></see> so that additional calls can be chained.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -192,7 +202,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/ClaimsPrincipalExtension.cs&amp;version=GBmaster&amp;line=9" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.UserCredentials/Extensions/ConfigurationExtensions.cs&amp;version=GBmaster&amp;line=9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

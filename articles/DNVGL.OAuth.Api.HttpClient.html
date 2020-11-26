@@ -69,7 +69,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="overview">Overview</h1>
 
-<p>DNVGL.OAuth.Api.HttpClient package has two credentials. One is user credentials which use current user's credentials to access api. Other is client credentials which is a service to service model to access api.</p>
+<p>DNVGL.OAuth.Api.HttpClient package has two type credentials. One is user credentials which use current user's credentials to access api. Other is client credentials which is a service to service model to access api. The http client will integrate the credentials to access web api.</p>
 <h1 id="package-install">Package Install</h1>
 <p>To install DNVGL.OAuth.Api.HttpClient package, you may need to add the below package feed to your nuget sources.</p>
 <pre><code>https://dnvgl-one.pkgs.visualstudio.com/_packaging/DNVGL.SolutionPackage/nuget/v3/index.json
@@ -80,6 +80,9 @@
 <p>Or Package Manager for solution/project
 <img src="../images/dnvgl.oauth.api.httpclient/add-package.png" alt=""></p>
 <h1 id="basic-example">Basic example</h1>
+<ol>
+<li>Setup API http client configuration in <code>appsettings.json</code> file.</li>
+</ol>
 <pre><code class="lang-js">  {
     &quot;ApiHttpClientOptions&quot;:[
       {
@@ -93,12 +96,24 @@
         &quot;Flow&quot;:&quot;client-credentials&quot;,
         &quot;BaseUri&quot;: &quot;https://localhost/api/client&quot;,
         &quot;SubscriptionKey&quot;: &quot;eqrqisfs34s1qre734&quot;
+        &quot;OpenIdConnectOptions&quot;: {
+          &quot;TenantId&quot;: &quot;ed815121-cdfa-4097-b524-e2b23cd36eb6&quot;,
+          &quot;ClientId&quot;: &quot;35807f23-80d5-4e97-b07a-21b86013a9ff&quot;,
+          &quot;ClientSecret&quot;: &quot;44adfa232#1ad6@#&quot;,
+          &quot;Scopes&quot;: [ &quot;https://dnvglb2ctest.onmicrosoft.com/a4a8e726-c1cc-407c-83a0-4ce37f1ce130/user_impersonation&quot;, &quot;offline_access&quot; ],
+          &quot;SignInPolicy&quot;: &quot;B2C_1A_SignInWithADFSIdp&quot;
+        }
       }
     ]
 
   }
 
 </code></pre>
+<ol start="2">
+<li>Calling <code>AddOAuthHttpClientFactory</code> extension to register api client to <code>ServiceCollection</code></li>
+</ol>
+<p>If you want to create user credential <code>HttpClient</code>, you must add <code>AddOidc</code> extension method and token cache to <code>ConfigureSerices</code> too. The Oidc configuraton is used by user credntial. Please refer details to <a href="DNVGL.OAuth.Web.html">DNVGL.OAuth.Web</a>.</p>
+<p>If you want to create client credential <code>HttpClient</code>, you have to set up <code>OpenIdConnectOptions</code>, Please see above setup API http client configuration.</p>
 <pre><code class="lang-cs">public void ConfigureService(IServiceCollection services)
 {
   ...
@@ -107,8 +122,10 @@
 
 }
 </code></pre>
-<pre><code class="lang-cs">
-public class TestController
+<ol start="3">
+<li>Resolve <code>OAuthHttpClientFactory</code> to create user-credential or client-credential <code>HttpClient</code> to access web api.</li>
+</ol>
+<pre><code class="lang-cs">public class TestController
 {
   private readonly IOAuthHttpClientFactory _oauthHttpClientFactory;
 
@@ -139,7 +156,7 @@ public class TestController
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=docfx_project/articles/DNVGL.OAuth.Api.HttpClient.md&amp;version=GBdoc&amp;line=1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=docfx_project/articles/DNVGL.OAuth.Api.HttpClient.md&amp;version=GBmaster&amp;line=1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

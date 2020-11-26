@@ -5,14 +5,146 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.Abstractions.IMsalAppBuilder.yml",
+      "source_relative_path": "api/DNVGL.OAuth.Api.HttpClient.Extensions.ConfigurationExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.Abstractions.IMsalAppBuilder.html",
-          "hash": "K6+rE9DiGD+Om2W1Gca0hg=="
+          "relative_path": "api/DNVGL.OAuth.Api.HttpClient.Extensions.ConfigurationExtensions.html",
+          "hash": "SCx+6MdyyLhyceVcZFNnSQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Api.HttpClient.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Api.HttpClient.Extensions.html",
+          "hash": "Q4DdFYAnArEaejFZJStg6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Api.HttpClient.IOAuthHttpClientFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Api.HttpClient.IOAuthHttpClientFactory.html",
+          "hash": "yfnOA1+S/OcPbA/5jbS3sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Api.HttpClient.OAuthCredentialFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Api.HttpClient.OAuthCredentialFlow.html",
+          "hash": "/RWHbOMspfkGrseQPgLwfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactory.html",
+          "hash": "8Vvlco04juRx2g0pbzFHyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactoryOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactoryOptions.html",
+          "hash": "n2yfJIxAh7p988XpYRfONA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Api.HttpClient.Test.OAuthHttpClientFactoryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Api.HttpClient.Test.OAuthHttpClientFactoryTests.html",
+          "hash": "kaztC14q7UPBLO7F693qNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Api.HttpClient.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Api.HttpClient.Test.html",
+          "hash": "G71ITLyAF+eZ4hOqScVjqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Api.HttpClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Api.HttpClient.html",
+          "hash": "3HgzuH5NCxiLgnagJ4bXUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.Abstractions.IClientApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.Abstractions.IClientApp.html",
+          "hash": "0vP+pvzxi8VP5T2zMz8e7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.Abstractions.IClientAppBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.Abstractions.IClientAppBuilder.html",
+          "hash": "9uEpbudifl/TYM3sZO+Pbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.Abstractions.ITokenCacheProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.Abstractions.ITokenCacheProvider.html",
+          "hash": "NO21pby/sJOPW9+PPyxH1w=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html",
-          "hash": "yfgFi8yLt775DTsx4ytr5w=="
+          "hash": "+0p4q4ppdA1bCIzC23TxFw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/DNVGL.OAuth.Web.Abstractions.html",
-          "hash": "dvDwPGzujbEU2okSTCRavw=="
+          "hash": "5fd630Dh2vhe4D2jqPbPhg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/DNVGL.OAuth.Web.AuthenticationExtensions.html",
-          "hash": "JNKUc71ERUY8hFVaW03M8g=="
+          "hash": "dttXabwV6QttsV0sk+Q7xw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/DNVGL.OAuth.Web.JwtOptions.html",
-          "hash": "J74hAQcGK9giYDdSCDaSuQ=="
+          "hash": "WJPs0HBJx/g31oqEjkQluw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/DNVGL.OAuth.Web.OidcOptions.html",
-          "hash": "qXpyXelydwjqLMUPv9B/SA=="
+          "hash": "RUFSQYXHhHbimeBDpD7laA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +216,7 @@
           "hash": "zAdNzeg/Fv/ZWRxol32fhw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -96,7 +228,7 @@
           "hash": "mogj9GBCzVjS4BwThMtVPg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -108,7 +240,7 @@
           "hash": "Erquo6FceBkR2j3QJmB2SA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,22 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.html",
-          "hash": "D6naDuHZEV32AdbJGzp97g=="
+          "hash": "BXZMG9dCFdcDyiU3FZ0TEw=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.html",
-          "hash": "p/vL6GcsXEViWOm+fiCEwQ=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,22 +261,34 @@
       "output": {
         ".html": {
           "relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.html",
-          "hash": "Q5FmAsbwyeHGsQSoufOmTw=="
+          "hash": "przjv2O+0BRsVyqyzeh4Nw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.yml",
+      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalClientApp.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.html",
-          "hash": "alRMHXFVwLZxWltSz9q5BQ=="
+          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalClientApp.html",
+          "hash": "FO/eowOp4FfCL+mZfT4IDg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalClientAppBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalClientAppBuilder.html",
+          "hash": "lx95QDsCeNiunSJGmTgzGw=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.html",
-          "hash": "N5w0fD/DOqHYZeX63G08ng=="
+          "hash": "krtGlTLNeoOfofBr0V002w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/DNVGL.OAuth.Web.TokenCache.html",
-          "hash": "CkidCT9gLNdkke3NYSx32g=="
+          "hash": "cBmMiXxRXmr06vTQcM9JOw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -196,6 +328,42 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.Web.Security.HttpResponseHeaderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.Web.Security.HttpResponseHeaderExtensions.html",
+          "hash": "TYF0T1QJkSwCQTIGS5wmXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.Web.Security.ResponseHeadersMiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.Web.Security.ResponseHeadersMiddlewareExtensions.html",
+          "hash": "LcGjPV/wjoQb637mD441PQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DNVGL.Web.Security.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DNVGL.Web.Security.html",
+          "hash": "YvrbojBwGHSa6NJDjvh/wA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -204,7 +372,7 @@
           "hash": "YyRST/rPKPDtBt6eClKCiw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "WDW0p5Y5UN8aSip/5lPBlg=="
+          "hash": "rerFtdj9gi2tPXAlO9ZE7Q=="
         }
       },
       "is_incremental": false,
@@ -225,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/DNVGL.OAuth.Api.HttpClient.html",
-          "hash": "YA6dyv0VOo0Ka2YTDqtNlQ=="
+          "hash": "mFRDDqrSAMVjXT8z59xibg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -240,7 +408,7 @@
           "hash": "YNq89iM6eemiVNnO9OpNjg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -252,7 +420,7 @@
           "hash": "FqLpGhwX+HAR13O373iXMg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -264,7 +432,7 @@
           "hash": "/ivHNFtMQ5DCHaAjxGpHpw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -332,7 +500,7 @@
           "hash": "ipW6rc27KEScSpIV+5g4ZQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -341,7 +509,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "cNrNbdPCFIexquDtD7t1Ew=="
+          "hash": "GmUU1bMmJSWLriIIZMCUJw=="
         }
       },
       "is_incremental": false,
@@ -366,8 +534,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 16,
-          "skipped_file_count": 16
+          "total_file_count": 30,
+          "skipped_file_count": 8
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

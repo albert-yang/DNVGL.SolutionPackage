@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class OidcOptions
+    <title>Class OAuthHttpClientFactory
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class OidcOptions
+    <meta name="title" content="Class OAuthHttpClientFactory
    ">
     <meta name="generator" content="docfx 2.51.0.0">
     
@@ -68,108 +68,119 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DNVGL.OAuth.Web.OidcOptions">
+            <article class="content wrap" id="_content" data-uid="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactory">
   
   
-  <h1 id="DNVGL_OAuth_Web_OidcOptions" data-uid="DNVGL.OAuth.Web.OidcOptions" class="text-break">Class OidcOptions
+  <h1 id="DNVGL_OAuth_Api_HttpClient_OAuthHttpClientFactory" data-uid="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactory" class="text-break">Class OAuthHttpClientFactory
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html">OpenIdConnectOptions</a></div>
-    <div class="level2"><span class="xref">OidcOptions</span></div>
+    <div class="level1"><span class="xref">OAuthHttpClientFactory</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_TenantId">OpenIdConnectOptions.TenantId</a>
-    </div>
-    <div>
-      <a class="xref" href="DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_ClientId">OpenIdConnectOptions.ClientId</a>
-    </div>
-    <div>
-      <a class="xref" href="DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_ClientSecret">OpenIdConnectOptions.ClientSecret</a>
-    </div>
-    <div>
-      <a class="xref" href="DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_CallbackPath">OpenIdConnectOptions.CallbackPath</a>
-    </div>
-    <div>
-      <a class="xref" href="DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_ResponseType">OpenIdConnectOptions.ResponseType</a>
-    </div>
-    <div>
-      <a class="xref" href="DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_Scopes">OpenIdConnectOptions.Scopes</a>
-    </div>
-    <div>
-      <a class="xref" href="DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_SignInPolicy">OpenIdConnectOptions.SignInPolicy</a>
-    </div>
-    <div>
-      <a class="xref" href="DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_Authority">OpenIdConnectOptions.Authority</a>
-    </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="DNVGL.OAuth.Api.HttpClient.IOAuthHttpClientFactory.html">IOAuthHttpClientFactory</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DNVGL.OAuth.Web.html">DNVGL.OAuth.Web</a></h6>
-  <h6><strong>Assembly</strong>: DNVGL.OAuth.Web.dll</h6>
-  <h5 id="DNVGL_OAuth_Web_OidcOptions_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DNVGL.OAuth.Api.HttpClient.html">DNVGL.OAuth.Api.HttpClient</a></h6>
+  <h6><strong>Assembly</strong>: DNVGL.OAuth.Api.HttpClient.dll</h6>
+  <h5 id="DNVGL_OAuth_Api_HttpClient_OAuthHttpClientFactory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class OidcOptions : OpenIdConnectOptions</code></pre>
+    <pre><code class="lang-csharp hljs">public class OAuthHttpClientFactory : object, IOAuthHttpClientFactory</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/OidcOptions.cs&amp;version=GBmaster&amp;line=9">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.UserCredentials/OAuthHttpClientFactory.cs&amp;version=GBmaster&amp;line=16">View Source</a>
   </span>
-  <a id="DNVGL_OAuth_Web_OidcOptions_Events_" data-uid="DNVGL.OAuth.Web.OidcOptions.Events*"></a>
-  <h4 id="DNVGL_OAuth_Web_OidcOptions_Events" data-uid="DNVGL.OAuth.Web.OidcOptions.Events">Events</h4>
+  <a id="DNVGL_OAuth_Api_HttpClient_OAuthHttpClientFactory__ctor_" data-uid="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactory.#ctor*"></a>
+  <h4 id="DNVGL_OAuth_Api_HttpClient_OAuthHttpClientFactory__ctor_IEnumerable_DNVGL_OAuth_Api_HttpClient_OAuthHttpClientFactoryOptions__IHttpContextAccessor_DNVGL_OAuth_Web_Abstractions_IClientAppBuilder_" data-uid="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactory.#ctor(IEnumerable{DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactoryOptions},IHttpContextAccessor,DNVGL.OAuth.Web.Abstractions.IClientAppBuilder)">OAuthHttpClientFactory(IEnumerable&lt;OAuthHttpClientFactoryOptions&gt;, IHttpContextAccessor, IClientAppBuilder)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OpenIdConnectEvents Events { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public OAuthHttpClientFactory(IEnumerable&lt;OAuthHttpClientFactoryOptions&gt; options, IHttpContextAccessor httpContextAccessor, IClientAppBuilder appBuilder)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">OpenIdConnectEvents</span></td>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactoryOptions.html">OAuthHttpClientFactoryOptions</a>&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IHttpContextAccessor</span></td>
+        <td><span class="parametername">httpContextAccessor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DNVGL.OAuth.Web.Abstractions.IClientAppBuilder.html">IClientAppBuilder</a></td>
+        <td><span class="parametername">appBuilder</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/OidcOptions.cs&amp;version=GBmaster&amp;line=7">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.UserCredentials/OAuthHttpClientFactory.cs&amp;version=GBmaster&amp;line=23">View Source</a>
   </span>
-  <a id="DNVGL_OAuth_Web_OidcOptions_MetadataAddress_" data-uid="DNVGL.OAuth.Web.OidcOptions.MetadataAddress*"></a>
-  <h4 id="DNVGL_OAuth_Web_OidcOptions_MetadataAddress" data-uid="DNVGL.OAuth.Web.OidcOptions.MetadataAddress">MetadataAddress</h4>
+  <a id="DNVGL_OAuth_Api_HttpClient_OAuthHttpClientFactory_Create_" data-uid="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactory.Create*"></a>
+  <h4 id="DNVGL_OAuth_Api_HttpClient_OAuthHttpClientFactory_Create_System_String_" data-uid="DNVGL.OAuth.Api.HttpClient.OAuthHttpClientFactory.Create(System.String)">Create(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string MetadataAddress { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public System.Net.Http.HttpClient Create(string name)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Net.Http.HttpClient</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="DNVGL.OAuth.Api.HttpClient.IOAuthHttpClientFactory.html">IOAuthHttpClientFactory</a>
+  </div>
 </article>
           </div>
           
@@ -178,7 +189,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/OidcOptions.cs&amp;version=GBmaster&amp;line=5" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.UserCredentials/OAuthHttpClientFactory.cs&amp;version=GBmaster&amp;line=10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
