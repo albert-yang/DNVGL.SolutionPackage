@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ClaimsPrincipalExtension
    ">
-    <meta name="generator" content="docfx 2.56.4.0">
+    <meta name="generator" content="docfx 2.51.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -80,44 +80,20 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ClaimsPrincipalExtension</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DNVGL.OAuth.Web.TokenCache.html">DNVGL.OAuth.Web.TokenCache</a></h6>
   <h6><strong>Assembly</strong>: DNVGL.OAuth.Web.dll</h6>
   <h5 id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ClaimsPrincipalExtension</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ClaimsPrincipalExtension : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/ClaimsPrincipalExtension.cs&amp;version=GBdoc&amp;line=16">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/ClaimsPrincipalExtension.cs&amp;version=GBdoc&amp;line=16">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetMsalAccountId_" data-uid="DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId*"></a>
-  <h4 id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetMsalAccountId_System_Security_Claims_ClaimsPrincipal_DNVGL_OAuth_Web_OidcOptions_" data-uid="DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId(System.Security.Claims.ClaimsPrincipal,DNVGL.OAuth.Web.OidcOptions)">GetMsalAccountId(ClaimsPrincipal, OidcOptions)</h4>
+  <h4 id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetMsalAccountId_ClaimsPrincipal_DNVGL_OAuth_Web_OidcOptions_" data-uid="DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId(ClaimsPrincipal,DNVGL.OAuth.Web.OidcOptions)">GetMsalAccountId(ClaimsPrincipal, OidcOptions)</h4>
   <div class="markdown level1 summary"><p>Generates a MSAL Account Id from user claims and OIDC Options.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -136,14 +112,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
+        <td><span class="xref">ClaimsPrincipal</span></td>
         <td><span class="parametername">claimsPrincipal</span></td>
         <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="DNVGL.OAuth.Web.OidcOptions.html">OidcOptions</a></td>
         <td><span class="parametername">oidcOptions</span></td>
-        <td><p>The <a class="xref" href="DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_TenantId">TenantId</a> of the options should be in GUID format.</p>
+        <td><p>The <see cref="!:OidcOptions.TenantId">TenantId</see> of the options should be in GUID format.</p>
 </td>
       </tr>
     </tbody>
@@ -165,10 +141,10 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/ClaimsPrincipalExtension.cs&amp;version=GBdoc&amp;line=44">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/ClaimsPrincipalExtension.cs&amp;version=GBdoc&amp;line=44">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetObjectId_" data-uid="DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetObjectId*"></a>
-  <h4 id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetObjectId_System_Security_Claims_ClaimsPrincipal_" data-uid="DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetObjectId(System.Security.Claims.ClaimsPrincipal)">GetObjectId(ClaimsPrincipal)</h4>
+  <h4 id="DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetObjectId_ClaimsPrincipal_" data-uid="DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetObjectId(ClaimsPrincipal)">GetObjectId(ClaimsPrincipal)</h4>
   <div class="markdown level1 summary"><p>Gets the <a href="http://schemas.microsoft.com/identity/claims/objectidentifier">oid</a> from user claims.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -187,7 +163,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Security.Claims.ClaimsPrincipal</span></td>
+        <td><span class="xref">ClaimsPrincipal</span></td>
         <td><span class="parametername">claimsPrincipal</span></td>
         <td></td>
       </tr>
@@ -216,13 +192,12 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/ClaimsPrincipalExtension.cs&amp;version=GBdoc&amp;line=8" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/ClaimsPrincipalExtension.cs&amp;version=GBdoc&amp;line=8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

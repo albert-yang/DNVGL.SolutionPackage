@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class MsalAppBuilder
    ">
-    <meta name="generator" content="docfx 2.56.4.0">
+    <meta name="generator" content="docfx 2.51.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -84,41 +84,17 @@
     <h5>Implements</h5>
     <div><a class="xref" href="DNVGL.OAuth.Web.Abstractions.IMsalAppBuilder.html">IMsalAppBuilder</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DNVGL.OAuth.Web.TokenCache.html">DNVGL.OAuth.Web.TokenCache</a></h6>
   <h6><strong>Assembly</strong>: DNVGL.OAuth.Web.dll</h6>
   <h5 id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MsalAppBuilder : IMsalAppBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">public class MsalAppBuilder : object, IMsalAppBuilder</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/MsalAppBuilder.cs&amp;version=GBdoc&amp;line=18">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/MsalAppBuilder.cs&amp;version=GBdoc&amp;line=18">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder__ctor_" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.#ctor*"></a>
   <h4 id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder__ctor_DNVGL_OAuth_Web_OidcOptions_DNVGL_OAuth_Web_TokenCache_IMsalTokenCacheProvider_" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.#ctor(DNVGL.OAuth.Web.OidcOptions,DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider)">MsalAppBuilder(OidcOptions, IMsalTokenCacheProvider)</h4>
@@ -154,10 +130,10 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/MsalAppBuilder.cs&amp;version=GBdoc&amp;line=24">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/MsalAppBuilder.cs&amp;version=GBdoc&amp;line=24">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_AcquireTokenByAuthorizationCode_" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenByAuthorizationCode*"></a>
-  <h4 id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_AcquireTokenByAuthorizationCode__1_Microsoft_AspNetCore_Authentication_RemoteAuthenticationContext___0__" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenByAuthorizationCode``1(Microsoft.AspNetCore.Authentication.RemoteAuthenticationContext{``0})">AcquireTokenByAuthorizationCode&lt;TOptions&gt;(RemoteAuthenticationContext&lt;TOptions&gt;)</h4>
+  <h4 id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_AcquireTokenByAuthorizationCode__1_RemoteAuthenticationContext___0__" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenByAuthorizationCode``1(RemoteAuthenticationContext{``0})">AcquireTokenByAuthorizationCode&lt;TOptions&gt;(RemoteAuthenticationContext&lt;TOptions&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -176,7 +152,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.RemoteAuthenticationContext</span>&lt;TOptions&gt;</td>
+        <td><span class="xref">RemoteAuthenticationContext</span>&lt;TOptions&gt;</td>
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
@@ -192,7 +168,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.Identity.Client.AuthenticationResult</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">AuthenticationResult</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -214,10 +190,10 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/MsalAppBuilder.cs&amp;version=GBdoc&amp;line=34">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/MsalAppBuilder.cs&amp;version=GBdoc&amp;line=34">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_AcquireTokenSilent_" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent*"></a>
-  <h4 id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_AcquireTokenSilent_Microsoft_AspNetCore_Http_HttpContext_System_String___" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent(Microsoft.AspNetCore.Http.HttpContext,System.String[])">AcquireTokenSilent(HttpContext, String[])</h4>
+  <h4 id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_AcquireTokenSilent_HttpContext_System_String___" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent(HttpContext,System.String[])">AcquireTokenSilent(HttpContext, String[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -235,7 +211,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Http.HttpContext</span></td>
+        <td><span class="xref">HttpContext</span></td>
         <td><span class="parametername">httpContext</span></td>
         <td></td>
       </tr>
@@ -256,17 +232,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.Identity.Client.AuthenticationResult</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">AuthenticationResult</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/MsalAppBuilder.cs&amp;version=GBdoc&amp;line=48">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/MsalAppBuilder.cs&amp;version=GBdoc&amp;line=48">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_ClearUserTokenCache_" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.ClearUserTokenCache*"></a>
-  <h4 id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_ClearUserTokenCache_Microsoft_AspNetCore_Http_HttpContext_" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.ClearUserTokenCache(Microsoft.AspNetCore.Http.HttpContext)">ClearUserTokenCache(HttpContext)</h4>
+  <h4 id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_ClearUserTokenCache_HttpContext_" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.ClearUserTokenCache(HttpContext)">ClearUserTokenCache(HttpContext)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -284,7 +260,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Http.HttpContext</span></td>
+        <td><span class="xref">HttpContext</span></td>
         <td><span class="parametername">httpContext</span></td>
         <td></td>
       </tr>
@@ -300,17 +276,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/MsalAppBuilder.cs&amp;version=GBdoc&amp;line=41">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/MsalAppBuilder.cs&amp;version=GBdoc&amp;line=41">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_GetAccount_" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.GetAccount*"></a>
-  <h4 id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_GetAccount_Microsoft_AspNetCore_Http_HttpContext_" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.GetAccount(Microsoft.AspNetCore.Http.HttpContext)">GetAccount(HttpContext)</h4>
+  <h4 id="DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_GetAccount_HttpContext_" data-uid="DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.GetAccount(HttpContext)">GetAccount(HttpContext)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -328,7 +304,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Http.HttpContext</span></td>
+        <td><span class="xref">HttpContext</span></td>
         <td><span class="parametername">httpContext</span></td>
         <td></td>
       </tr>
@@ -344,7 +320,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.Identity.Client.IAccount</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IAccount</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -361,13 +337,12 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/MsalAppBuilder.cs&amp;version=GBdoc&amp;line=12" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/TokenCache/MsalAppBuilder.cs&amp;version=GBdoc&amp;line=12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

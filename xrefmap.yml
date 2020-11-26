@@ -77,19 +77,129 @@ references:
   isSpec: "True"
   fullName: DNVGL.OAuth.Web.Abstractions.IMsalAppBuilder.GetAccount
   nameWithType: IMsalAppBuilder.GetAccount
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions
+  name: OpenIdConnectOptions
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html
+  commentId: T:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions
+  nameWithType: OpenIdConnectOptions
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.Authority
+  name: Authority
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_Authority
+  commentId: P:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.Authority
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.Authority
+  nameWithType: OpenIdConnectOptions.Authority
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.Authority*
+  name: Authority
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_Authority_
+  commentId: Overload:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.Authority
+  isSpec: "True"
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.Authority
+  nameWithType: OpenIdConnectOptions.Authority
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.CallbackPath
+  name: CallbackPath
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_CallbackPath
+  commentId: P:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.CallbackPath
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.CallbackPath
+  nameWithType: OpenIdConnectOptions.CallbackPath
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.CallbackPath*
+  name: CallbackPath
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_CallbackPath_
+  commentId: Overload:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.CallbackPath
+  isSpec: "True"
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.CallbackPath
+  nameWithType: OpenIdConnectOptions.CallbackPath
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ClientId
+  name: ClientId
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_ClientId
+  commentId: P:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ClientId
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ClientId
+  nameWithType: OpenIdConnectOptions.ClientId
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ClientId*
+  name: ClientId
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_ClientId_
+  commentId: Overload:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ClientId
+  isSpec: "True"
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ClientId
+  nameWithType: OpenIdConnectOptions.ClientId
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ClientSecret
+  name: ClientSecret
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_ClientSecret
+  commentId: P:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ClientSecret
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ClientSecret
+  nameWithType: OpenIdConnectOptions.ClientSecret
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ClientSecret*
+  name: ClientSecret
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_ClientSecret_
+  commentId: Overload:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ClientSecret
+  isSpec: "True"
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ClientSecret
+  nameWithType: OpenIdConnectOptions.ClientSecret
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ResponseType
+  name: ResponseType
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_ResponseType
+  commentId: P:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ResponseType
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ResponseType
+  nameWithType: OpenIdConnectOptions.ResponseType
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ResponseType*
+  name: ResponseType
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_ResponseType_
+  commentId: Overload:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ResponseType
+  isSpec: "True"
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.ResponseType
+  nameWithType: OpenIdConnectOptions.ResponseType
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.Scopes
+  name: Scopes
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_Scopes
+  commentId: P:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.Scopes
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.Scopes
+  nameWithType: OpenIdConnectOptions.Scopes
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.Scopes*
+  name: Scopes
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_Scopes_
+  commentId: Overload:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.Scopes
+  isSpec: "True"
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.Scopes
+  nameWithType: OpenIdConnectOptions.Scopes
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.SignInPolicy
+  name: SignInPolicy
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_SignInPolicy
+  commentId: P:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.SignInPolicy
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.SignInPolicy
+  nameWithType: OpenIdConnectOptions.SignInPolicy
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.SignInPolicy*
+  name: SignInPolicy
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_SignInPolicy_
+  commentId: Overload:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.SignInPolicy
+  isSpec: "True"
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.SignInPolicy
+  nameWithType: OpenIdConnectOptions.SignInPolicy
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.TenantId
+  name: TenantId
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_TenantId
+  commentId: P:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.TenantId
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.TenantId
+  nameWithType: OpenIdConnectOptions.TenantId
+- uid: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.TenantId*
+  name: TenantId
+  href: api/DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.html#DNVGL_OAuth_Web_Abstractions_OpenIdConnectOptions_TenantId_
+  commentId: Overload:DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.TenantId
+  isSpec: "True"
+  fullName: DNVGL.OAuth.Web.Abstractions.OpenIdConnectOptions.TenantId
+  nameWithType: OpenIdConnectOptions.TenantId
 - uid: DNVGL.OAuth.Web.AuthenticationExtensions
   name: AuthenticationExtensions
   href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html
   commentId: T:DNVGL.OAuth.Web.AuthenticationExtensions
   fullName: DNVGL.OAuth.Web.AuthenticationExtensions
   nameWithType: AuthenticationExtensions
-- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache(Microsoft.Extensions.DependencyInjection.IServiceCollection,DNVGL.OAuth.Web.OidcOptions,System.Action{Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions})
+- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache(IServiceCollection,DNVGL.OAuth.Web.OidcOptions,Action{DistributedCacheEntryOptions})
   name: AddDistributedTokenCache(IServiceCollection, OidcOptions, Action<DistributedCacheEntryOptions>)
-  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddDistributedTokenCache_Microsoft_Extensions_DependencyInjection_IServiceCollection_DNVGL_OAuth_Web_OidcOptions_System_Action_Microsoft_Extensions_Caching_Distributed_DistributedCacheEntryOptions__
-  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache(Microsoft.Extensions.DependencyInjection.IServiceCollection,DNVGL.OAuth.Web.OidcOptions,System.Action{Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions})
+  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddDistributedTokenCache_IServiceCollection_DNVGL_OAuth_Web_OidcOptions_Action_DistributedCacheEntryOptions__
+  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache(IServiceCollection,DNVGL.OAuth.Web.OidcOptions,Action{DistributedCacheEntryOptions})
   name.vb: AddDistributedTokenCache(IServiceCollection, OidcOptions, Action(Of DistributedCacheEntryOptions))
-  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache(Microsoft.Extensions.DependencyInjection.IServiceCollection, DNVGL.OAuth.Web.OidcOptions, System.Action<Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions>)
-  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache(Microsoft.Extensions.DependencyInjection.IServiceCollection, DNVGL.OAuth.Web.OidcOptions, System.Action(Of Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions))
+  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache(IServiceCollection, DNVGL.OAuth.Web.OidcOptions, Action<DistributedCacheEntryOptions>)
+  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache(IServiceCollection, DNVGL.OAuth.Web.OidcOptions, Action(Of DistributedCacheEntryOptions))
   nameWithType: AuthenticationExtensions.AddDistributedTokenCache(IServiceCollection, OidcOptions, Action<DistributedCacheEntryOptions>)
   nameWithType.vb: AuthenticationExtensions.AddDistributedTokenCache(IServiceCollection, OidcOptions, Action(Of DistributedCacheEntryOptions))
 - uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache*
@@ -99,31 +209,31 @@ references:
   isSpec: "True"
   fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache
   nameWithType: AuthenticationExtensions.AddDistributedTokenCache
-- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{System.Collections.Generic.Dictionary{System.String,DNVGL.OAuth.Web.JwtOptions}})
+- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder,Action{Dictionary{System.String,DNVGL.OAuth.Web.JwtOptions}})
   name: AddJwt(AuthenticationBuilder, Action<Dictionary<String, JwtOptions>>)
-  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_Microsoft_AspNetCore_Authentication_AuthenticationBuilder_System_Action_System_Collections_Generic_Dictionary_System_String_DNVGL_OAuth_Web_JwtOptions___
-  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{System.Collections.Generic.Dictionary{System.String,DNVGL.OAuth.Web.JwtOptions}})
+  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_AuthenticationBuilder_Action_Dictionary_System_String_DNVGL_OAuth_Web_JwtOptions___
+  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder,Action{Dictionary{System.String,DNVGL.OAuth.Web.JwtOptions}})
   name.vb: AddJwt(AuthenticationBuilder, Action(Of Dictionary(Of String, JwtOptions)))
-  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, System.Action<System.Collections.Generic.Dictionary<System.String, DNVGL.OAuth.Web.JwtOptions>>)
-  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, System.Action(Of System.Collections.Generic.Dictionary(Of System.String, DNVGL.OAuth.Web.JwtOptions)))
+  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder, Action<Dictionary<System.String, DNVGL.OAuth.Web.JwtOptions>>)
+  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder, Action(Of Dictionary(Of System.String, DNVGL.OAuth.Web.JwtOptions)))
   nameWithType: AuthenticationExtensions.AddJwt(AuthenticationBuilder, Action<Dictionary<String, JwtOptions>>)
   nameWithType.vb: AuthenticationExtensions.AddJwt(AuthenticationBuilder, Action(Of Dictionary(Of String, JwtOptions)))
-- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Collections.Generic.Dictionary{System.String,DNVGL.OAuth.Web.JwtOptions})
+- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder,Dictionary{System.String,DNVGL.OAuth.Web.JwtOptions})
   name: AddJwt(AuthenticationBuilder, Dictionary<String, JwtOptions>)
-  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_Microsoft_AspNetCore_Authentication_AuthenticationBuilder_System_Collections_Generic_Dictionary_System_String_DNVGL_OAuth_Web_JwtOptions__
-  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Collections.Generic.Dictionary{System.String,DNVGL.OAuth.Web.JwtOptions})
+  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_AuthenticationBuilder_Dictionary_System_String_DNVGL_OAuth_Web_JwtOptions__
+  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder,Dictionary{System.String,DNVGL.OAuth.Web.JwtOptions})
   name.vb: AddJwt(AuthenticationBuilder, Dictionary(Of String, JwtOptions))
-  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, System.Collections.Generic.Dictionary<System.String, DNVGL.OAuth.Web.JwtOptions>)
-  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, System.Collections.Generic.Dictionary(Of System.String, DNVGL.OAuth.Web.JwtOptions))
+  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder, Dictionary<System.String, DNVGL.OAuth.Web.JwtOptions>)
+  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder, Dictionary(Of System.String, DNVGL.OAuth.Web.JwtOptions))
   nameWithType: AuthenticationExtensions.AddJwt(AuthenticationBuilder, Dictionary<String, JwtOptions>)
   nameWithType.vb: AuthenticationExtensions.AddJwt(AuthenticationBuilder, Dictionary(Of String, JwtOptions))
-- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Collections.Generic.IEnumerable{Microsoft.Extensions.Configuration.IConfigurationSection})
+- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder,IEnumerable{IConfigurationSection})
   name: AddJwt(AuthenticationBuilder, IEnumerable<IConfigurationSection>)
-  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_Microsoft_AspNetCore_Authentication_AuthenticationBuilder_System_Collections_Generic_IEnumerable_Microsoft_Extensions_Configuration_IConfigurationSection__
-  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Collections.Generic.IEnumerable{Microsoft.Extensions.Configuration.IConfigurationSection})
+  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_AuthenticationBuilder_IEnumerable_IConfigurationSection__
+  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder,IEnumerable{IConfigurationSection})
   name.vb: AddJwt(AuthenticationBuilder, IEnumerable(Of IConfigurationSection))
-  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, System.Collections.Generic.IEnumerable<Microsoft.Extensions.Configuration.IConfigurationSection>)
-  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, System.Collections.Generic.IEnumerable(Of Microsoft.Extensions.Configuration.IConfigurationSection))
+  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder, IEnumerable<IConfigurationSection>)
+  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder, IEnumerable(Of IConfigurationSection))
   nameWithType: AuthenticationExtensions.AddJwt(AuthenticationBuilder, IEnumerable<IConfigurationSection>)
   nameWithType.vb: AuthenticationExtensions.AddJwt(AuthenticationBuilder, IEnumerable(Of IConfigurationSection))
 - uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt*
@@ -133,42 +243,42 @@ references:
   isSpec: "True"
   fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt
   nameWithType: AuthenticationExtensions.AddJwt
-- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,DNVGL.OAuth.Web.OidcOptions,System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions})
-  name: AddOidc(AuthenticationBuilder, OidcOptions, Action<CookieAuthenticationOptions>)
-  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_Microsoft_AspNetCore_Authentication_AuthenticationBuilder_DNVGL_OAuth_Web_OidcOptions_System_Action_Microsoft_AspNetCore_Authentication_Cookies_CookieAuthenticationOptions__
-  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,DNVGL.OAuth.Web.OidcOptions,System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions})
-  name.vb: AddOidc(AuthenticationBuilder, OidcOptions, Action(Of CookieAuthenticationOptions))
-  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, DNVGL.OAuth.Web.OidcOptions, System.Action<Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions>)
-  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, DNVGL.OAuth.Web.OidcOptions, System.Action(Of Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions))
-  nameWithType: AuthenticationExtensions.AddOidc(AuthenticationBuilder, OidcOptions, Action<CookieAuthenticationOptions>)
-  nameWithType.vb: AuthenticationExtensions.AddOidc(AuthenticationBuilder, OidcOptions, Action(Of CookieAuthenticationOptions))
-- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{DNVGL.OAuth.Web.OidcOptions},System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions})
+- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(AuthenticationBuilder,Action{DNVGL.OAuth.Web.OidcOptions},Action{CookieAuthenticationOptions})
   name: AddOidc(AuthenticationBuilder, Action<OidcOptions>, Action<CookieAuthenticationOptions>)
-  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_Microsoft_AspNetCore_Authentication_AuthenticationBuilder_System_Action_DNVGL_OAuth_Web_OidcOptions__System_Action_Microsoft_AspNetCore_Authentication_Cookies_CookieAuthenticationOptions__
-  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{DNVGL.OAuth.Web.OidcOptions},System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions})
+  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_AuthenticationBuilder_Action_DNVGL_OAuth_Web_OidcOptions__Action_CookieAuthenticationOptions__
+  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(AuthenticationBuilder,Action{DNVGL.OAuth.Web.OidcOptions},Action{CookieAuthenticationOptions})
   name.vb: AddOidc(AuthenticationBuilder, Action(Of OidcOptions), Action(Of CookieAuthenticationOptions))
-  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, System.Action<DNVGL.OAuth.Web.OidcOptions>, System.Action<Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions>)
-  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, System.Action(Of DNVGL.OAuth.Web.OidcOptions), System.Action(Of Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions))
+  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(AuthenticationBuilder, Action<DNVGL.OAuth.Web.OidcOptions>, Action<CookieAuthenticationOptions>)
+  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(AuthenticationBuilder, Action(Of DNVGL.OAuth.Web.OidcOptions), Action(Of CookieAuthenticationOptions))
   nameWithType: AuthenticationExtensions.AddOidc(AuthenticationBuilder, Action<OidcOptions>, Action<CookieAuthenticationOptions>)
   nameWithType.vb: AuthenticationExtensions.AddOidc(AuthenticationBuilder, Action(Of OidcOptions), Action(Of CookieAuthenticationOptions))
-- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection,DNVGL.OAuth.Web.OidcOptions,System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions})
-  name: AddOidc(IServiceCollection, OidcOptions, Action<CookieAuthenticationOptions>)
-  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_Microsoft_Extensions_DependencyInjection_IServiceCollection_DNVGL_OAuth_Web_OidcOptions_System_Action_Microsoft_AspNetCore_Authentication_Cookies_CookieAuthenticationOptions__
-  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection,DNVGL.OAuth.Web.OidcOptions,System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions})
-  name.vb: AddOidc(IServiceCollection, OidcOptions, Action(Of CookieAuthenticationOptions))
-  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection, DNVGL.OAuth.Web.OidcOptions, System.Action<Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions>)
-  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection, DNVGL.OAuth.Web.OidcOptions, System.Action(Of Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions))
-  nameWithType: AuthenticationExtensions.AddOidc(IServiceCollection, OidcOptions, Action<CookieAuthenticationOptions>)
-  nameWithType.vb: AuthenticationExtensions.AddOidc(IServiceCollection, OidcOptions, Action(Of CookieAuthenticationOptions))
-- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{DNVGL.OAuth.Web.OidcOptions},System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions})
+- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(AuthenticationBuilder,DNVGL.OAuth.Web.OidcOptions,Action{CookieAuthenticationOptions})
+  name: AddOidc(AuthenticationBuilder, OidcOptions, Action<CookieAuthenticationOptions>)
+  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_AuthenticationBuilder_DNVGL_OAuth_Web_OidcOptions_Action_CookieAuthenticationOptions__
+  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(AuthenticationBuilder,DNVGL.OAuth.Web.OidcOptions,Action{CookieAuthenticationOptions})
+  name.vb: AddOidc(AuthenticationBuilder, OidcOptions, Action(Of CookieAuthenticationOptions))
+  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(AuthenticationBuilder, DNVGL.OAuth.Web.OidcOptions, Action<CookieAuthenticationOptions>)
+  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(AuthenticationBuilder, DNVGL.OAuth.Web.OidcOptions, Action(Of CookieAuthenticationOptions))
+  nameWithType: AuthenticationExtensions.AddOidc(AuthenticationBuilder, OidcOptions, Action<CookieAuthenticationOptions>)
+  nameWithType.vb: AuthenticationExtensions.AddOidc(AuthenticationBuilder, OidcOptions, Action(Of CookieAuthenticationOptions))
+- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(IServiceCollection,Action{DNVGL.OAuth.Web.OidcOptions},Action{CookieAuthenticationOptions})
   name: AddOidc(IServiceCollection, Action<OidcOptions>, Action<CookieAuthenticationOptions>)
-  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_DNVGL_OAuth_Web_OidcOptions__System_Action_Microsoft_AspNetCore_Authentication_Cookies_CookieAuthenticationOptions__
-  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{DNVGL.OAuth.Web.OidcOptions},System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions})
+  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_IServiceCollection_Action_DNVGL_OAuth_Web_OidcOptions__Action_CookieAuthenticationOptions__
+  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(IServiceCollection,Action{DNVGL.OAuth.Web.OidcOptions},Action{CookieAuthenticationOptions})
   name.vb: AddOidc(IServiceCollection, Action(Of OidcOptions), Action(Of CookieAuthenticationOptions))
-  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<DNVGL.OAuth.Web.OidcOptions>, System.Action<Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions>)
-  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of DNVGL.OAuth.Web.OidcOptions), System.Action(Of Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions))
+  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(IServiceCollection, Action<DNVGL.OAuth.Web.OidcOptions>, Action<CookieAuthenticationOptions>)
+  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(IServiceCollection, Action(Of DNVGL.OAuth.Web.OidcOptions), Action(Of CookieAuthenticationOptions))
   nameWithType: AuthenticationExtensions.AddOidc(IServiceCollection, Action<OidcOptions>, Action<CookieAuthenticationOptions>)
   nameWithType.vb: AuthenticationExtensions.AddOidc(IServiceCollection, Action(Of OidcOptions), Action(Of CookieAuthenticationOptions))
+- uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(IServiceCollection,DNVGL.OAuth.Web.OidcOptions,Action{CookieAuthenticationOptions})
+  name: AddOidc(IServiceCollection, OidcOptions, Action<CookieAuthenticationOptions>)
+  href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_IServiceCollection_DNVGL_OAuth_Web_OidcOptions_Action_CookieAuthenticationOptions__
+  commentId: M:DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(IServiceCollection,DNVGL.OAuth.Web.OidcOptions,Action{CookieAuthenticationOptions})
+  name.vb: AddOidc(IServiceCollection, OidcOptions, Action(Of CookieAuthenticationOptions))
+  fullName: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(IServiceCollection, DNVGL.OAuth.Web.OidcOptions, Action<CookieAuthenticationOptions>)
+  fullName.vb: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(IServiceCollection, DNVGL.OAuth.Web.OidcOptions, Action(Of CookieAuthenticationOptions))
+  nameWithType: AuthenticationExtensions.AddOidc(IServiceCollection, OidcOptions, Action<CookieAuthenticationOptions>)
+  nameWithType.vb: AuthenticationExtensions.AddOidc(IServiceCollection, OidcOptions, Action(Of CookieAuthenticationOptions))
 - uid: DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc*
   name: AddOidc
   href: api/DNVGL.OAuth.Web.AuthenticationExtensions.html#DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_
@@ -266,58 +376,6 @@ references:
   commentId: T:DNVGL.OAuth.Web.OidcOptions
   fullName: DNVGL.OAuth.Web.OidcOptions
   nameWithType: OidcOptions
-- uid: DNVGL.OAuth.Web.OidcOptions.Authority
-  name: Authority
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_Authority
-  commentId: P:DNVGL.OAuth.Web.OidcOptions.Authority
-  fullName: DNVGL.OAuth.Web.OidcOptions.Authority
-  nameWithType: OidcOptions.Authority
-- uid: DNVGL.OAuth.Web.OidcOptions.Authority*
-  name: Authority
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_Authority_
-  commentId: Overload:DNVGL.OAuth.Web.OidcOptions.Authority
-  isSpec: "True"
-  fullName: DNVGL.OAuth.Web.OidcOptions.Authority
-  nameWithType: OidcOptions.Authority
-- uid: DNVGL.OAuth.Web.OidcOptions.CallbackPath
-  name: CallbackPath
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_CallbackPath
-  commentId: P:DNVGL.OAuth.Web.OidcOptions.CallbackPath
-  fullName: DNVGL.OAuth.Web.OidcOptions.CallbackPath
-  nameWithType: OidcOptions.CallbackPath
-- uid: DNVGL.OAuth.Web.OidcOptions.CallbackPath*
-  name: CallbackPath
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_CallbackPath_
-  commentId: Overload:DNVGL.OAuth.Web.OidcOptions.CallbackPath
-  isSpec: "True"
-  fullName: DNVGL.OAuth.Web.OidcOptions.CallbackPath
-  nameWithType: OidcOptions.CallbackPath
-- uid: DNVGL.OAuth.Web.OidcOptions.ClientId
-  name: ClientId
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_ClientId
-  commentId: P:DNVGL.OAuth.Web.OidcOptions.ClientId
-  fullName: DNVGL.OAuth.Web.OidcOptions.ClientId
-  nameWithType: OidcOptions.ClientId
-- uid: DNVGL.OAuth.Web.OidcOptions.ClientId*
-  name: ClientId
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_ClientId_
-  commentId: Overload:DNVGL.OAuth.Web.OidcOptions.ClientId
-  isSpec: "True"
-  fullName: DNVGL.OAuth.Web.OidcOptions.ClientId
-  nameWithType: OidcOptions.ClientId
-- uid: DNVGL.OAuth.Web.OidcOptions.ClientSecret
-  name: ClientSecret
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_ClientSecret
-  commentId: P:DNVGL.OAuth.Web.OidcOptions.ClientSecret
-  fullName: DNVGL.OAuth.Web.OidcOptions.ClientSecret
-  nameWithType: OidcOptions.ClientSecret
-- uid: DNVGL.OAuth.Web.OidcOptions.ClientSecret*
-  name: ClientSecret
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_ClientSecret_
-  commentId: Overload:DNVGL.OAuth.Web.OidcOptions.ClientSecret
-  isSpec: "True"
-  fullName: DNVGL.OAuth.Web.OidcOptions.ClientSecret
-  nameWithType: OidcOptions.ClientSecret
 - uid: DNVGL.OAuth.Web.OidcOptions.Events
   name: Events
   href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_Events
@@ -344,58 +402,6 @@ references:
   isSpec: "True"
   fullName: DNVGL.OAuth.Web.OidcOptions.MetadataAddress
   nameWithType: OidcOptions.MetadataAddress
-- uid: DNVGL.OAuth.Web.OidcOptions.ResponseType
-  name: ResponseType
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_ResponseType
-  commentId: P:DNVGL.OAuth.Web.OidcOptions.ResponseType
-  fullName: DNVGL.OAuth.Web.OidcOptions.ResponseType
-  nameWithType: OidcOptions.ResponseType
-- uid: DNVGL.OAuth.Web.OidcOptions.ResponseType*
-  name: ResponseType
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_ResponseType_
-  commentId: Overload:DNVGL.OAuth.Web.OidcOptions.ResponseType
-  isSpec: "True"
-  fullName: DNVGL.OAuth.Web.OidcOptions.ResponseType
-  nameWithType: OidcOptions.ResponseType
-- uid: DNVGL.OAuth.Web.OidcOptions.Scopes
-  name: Scopes
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_Scopes
-  commentId: P:DNVGL.OAuth.Web.OidcOptions.Scopes
-  fullName: DNVGL.OAuth.Web.OidcOptions.Scopes
-  nameWithType: OidcOptions.Scopes
-- uid: DNVGL.OAuth.Web.OidcOptions.Scopes*
-  name: Scopes
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_Scopes_
-  commentId: Overload:DNVGL.OAuth.Web.OidcOptions.Scopes
-  isSpec: "True"
-  fullName: DNVGL.OAuth.Web.OidcOptions.Scopes
-  nameWithType: OidcOptions.Scopes
-- uid: DNVGL.OAuth.Web.OidcOptions.SignInPolicy
-  name: SignInPolicy
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_SignInPolicy
-  commentId: P:DNVGL.OAuth.Web.OidcOptions.SignInPolicy
-  fullName: DNVGL.OAuth.Web.OidcOptions.SignInPolicy
-  nameWithType: OidcOptions.SignInPolicy
-- uid: DNVGL.OAuth.Web.OidcOptions.SignInPolicy*
-  name: SignInPolicy
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_SignInPolicy_
-  commentId: Overload:DNVGL.OAuth.Web.OidcOptions.SignInPolicy
-  isSpec: "True"
-  fullName: DNVGL.OAuth.Web.OidcOptions.SignInPolicy
-  nameWithType: OidcOptions.SignInPolicy
-- uid: DNVGL.OAuth.Web.OidcOptions.TenantId
-  name: TenantId
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_TenantId
-  commentId: P:DNVGL.OAuth.Web.OidcOptions.TenantId
-  fullName: DNVGL.OAuth.Web.OidcOptions.TenantId
-  nameWithType: OidcOptions.TenantId
-- uid: DNVGL.OAuth.Web.OidcOptions.TenantId*
-  name: TenantId
-  href: api/DNVGL.OAuth.Web.OidcOptions.html#DNVGL_OAuth_Web_OidcOptions_TenantId_
-  commentId: Overload:DNVGL.OAuth.Web.OidcOptions.TenantId
-  isSpec: "True"
-  fullName: DNVGL.OAuth.Web.OidcOptions.TenantId
-  nameWithType: OidcOptions.TenantId
 - uid: DNVGL.OAuth.Web.Swagger
   name: DNVGL.OAuth.Web.Swagger
   href: api/DNVGL.OAuth.Web.Swagger.html
@@ -408,13 +414,13 @@ references:
   commentId: T:DNVGL.OAuth.Web.Swagger.SwaggerExtensions
   fullName: DNVGL.OAuth.Web.Swagger.SwaggerExtensions
   nameWithType: SwaggerExtensions
-- uid: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{DNVGL.OAuth.Web.Swagger.SwaggerOption})
+- uid: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.AddSwagger(IServiceCollection,System.Action{DNVGL.OAuth.Web.Swagger.SwaggerOption})
   name: AddSwagger(IServiceCollection, Action<SwaggerOption>)
-  href: api/DNVGL.OAuth.Web.Swagger.SwaggerExtensions.html#DNVGL_OAuth_Web_Swagger_SwaggerExtensions_AddSwagger_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_DNVGL_OAuth_Web_Swagger_SwaggerOption__
-  commentId: M:DNVGL.OAuth.Web.Swagger.SwaggerExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{DNVGL.OAuth.Web.Swagger.SwaggerOption})
+  href: api/DNVGL.OAuth.Web.Swagger.SwaggerExtensions.html#DNVGL_OAuth_Web_Swagger_SwaggerExtensions_AddSwagger_IServiceCollection_System_Action_DNVGL_OAuth_Web_Swagger_SwaggerOption__
+  commentId: M:DNVGL.OAuth.Web.Swagger.SwaggerExtensions.AddSwagger(IServiceCollection,System.Action{DNVGL.OAuth.Web.Swagger.SwaggerOption})
   name.vb: AddSwagger(IServiceCollection, Action(Of SwaggerOption))
-  fullName: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<DNVGL.OAuth.Web.Swagger.SwaggerOption>)
-  fullName.vb: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of DNVGL.OAuth.Web.Swagger.SwaggerOption))
+  fullName: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.AddSwagger(IServiceCollection, System.Action<DNVGL.OAuth.Web.Swagger.SwaggerOption>)
+  fullName.vb: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.AddSwagger(IServiceCollection, System.Action(Of DNVGL.OAuth.Web.Swagger.SwaggerOption))
   nameWithType: SwaggerExtensions.AddSwagger(IServiceCollection, Action<SwaggerOption>)
   nameWithType.vb: SwaggerExtensions.AddSwagger(IServiceCollection, Action(Of SwaggerOption))
 - uid: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.AddSwagger*
@@ -424,13 +430,13 @@ references:
   isSpec: "True"
   fullName: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.AddSwagger
   nameWithType: SwaggerExtensions.AddSwagger
-- uid: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.UseSwaggerWithUI(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{DNVGL.OAuth.Web.Swagger.SwaggerOption})
+- uid: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.UseSwaggerWithUI(IApplicationBuilder,System.Action{DNVGL.OAuth.Web.Swagger.SwaggerOption})
   name: UseSwaggerWithUI(IApplicationBuilder, Action<SwaggerOption>)
-  href: api/DNVGL.OAuth.Web.Swagger.SwaggerExtensions.html#DNVGL_OAuth_Web_Swagger_SwaggerExtensions_UseSwaggerWithUI_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_Action_DNVGL_OAuth_Web_Swagger_SwaggerOption__
-  commentId: M:DNVGL.OAuth.Web.Swagger.SwaggerExtensions.UseSwaggerWithUI(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{DNVGL.OAuth.Web.Swagger.SwaggerOption})
+  href: api/DNVGL.OAuth.Web.Swagger.SwaggerExtensions.html#DNVGL_OAuth_Web_Swagger_SwaggerExtensions_UseSwaggerWithUI_IApplicationBuilder_System_Action_DNVGL_OAuth_Web_Swagger_SwaggerOption__
+  commentId: M:DNVGL.OAuth.Web.Swagger.SwaggerExtensions.UseSwaggerWithUI(IApplicationBuilder,System.Action{DNVGL.OAuth.Web.Swagger.SwaggerOption})
   name.vb: UseSwaggerWithUI(IApplicationBuilder, Action(Of SwaggerOption))
-  fullName: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.UseSwaggerWithUI(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<DNVGL.OAuth.Web.Swagger.SwaggerOption>)
-  fullName.vb: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.UseSwaggerWithUI(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action(Of DNVGL.OAuth.Web.Swagger.SwaggerOption))
+  fullName: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.UseSwaggerWithUI(IApplicationBuilder, System.Action<DNVGL.OAuth.Web.Swagger.SwaggerOption>)
+  fullName.vb: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.UseSwaggerWithUI(IApplicationBuilder, System.Action(Of DNVGL.OAuth.Web.Swagger.SwaggerOption))
   nameWithType: SwaggerExtensions.UseSwaggerWithUI(IApplicationBuilder, Action<SwaggerOption>)
   nameWithType.vb: SwaggerExtensions.UseSwaggerWithUI(IApplicationBuilder, Action(Of SwaggerOption))
 - uid: DNVGL.OAuth.Web.Swagger.SwaggerExtensions.UseSwaggerWithUI*
@@ -536,11 +542,11 @@ references:
   commentId: T:DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension
   fullName: DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension
   nameWithType: ClaimsPrincipalExtension
-- uid: DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId(System.Security.Claims.ClaimsPrincipal,DNVGL.OAuth.Web.OidcOptions)
+- uid: DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId(ClaimsPrincipal,DNVGL.OAuth.Web.OidcOptions)
   name: GetMsalAccountId(ClaimsPrincipal, OidcOptions)
-  href: api/DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.html#DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetMsalAccountId_System_Security_Claims_ClaimsPrincipal_DNVGL_OAuth_Web_OidcOptions_
-  commentId: M:DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId(System.Security.Claims.ClaimsPrincipal,DNVGL.OAuth.Web.OidcOptions)
-  fullName: DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId(System.Security.Claims.ClaimsPrincipal, DNVGL.OAuth.Web.OidcOptions)
+  href: api/DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.html#DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetMsalAccountId_ClaimsPrincipal_DNVGL_OAuth_Web_OidcOptions_
+  commentId: M:DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId(ClaimsPrincipal,DNVGL.OAuth.Web.OidcOptions)
+  fullName: DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId(ClaimsPrincipal, DNVGL.OAuth.Web.OidcOptions)
   nameWithType: ClaimsPrincipalExtension.GetMsalAccountId(ClaimsPrincipal, OidcOptions)
 - uid: DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId*
   name: GetMsalAccountId
@@ -549,11 +555,11 @@ references:
   isSpec: "True"
   fullName: DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetMsalAccountId
   nameWithType: ClaimsPrincipalExtension.GetMsalAccountId
-- uid: DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetObjectId(System.Security.Claims.ClaimsPrincipal)
+- uid: DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetObjectId(ClaimsPrincipal)
   name: GetObjectId(ClaimsPrincipal)
-  href: api/DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.html#DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetObjectId_System_Security_Claims_ClaimsPrincipal_
-  commentId: M:DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetObjectId(System.Security.Claims.ClaimsPrincipal)
-  fullName: DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetObjectId(System.Security.Claims.ClaimsPrincipal)
+  href: api/DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.html#DNVGL_OAuth_Web_TokenCache_ClaimsPrincipalExtension_GetObjectId_ClaimsPrincipal_
+  commentId: M:DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetObjectId(ClaimsPrincipal)
+  fullName: DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetObjectId(ClaimsPrincipal)
   nameWithType: ClaimsPrincipalExtension.GetObjectId(ClaimsPrincipal)
 - uid: DNVGL.OAuth.Web.TokenCache.ClaimsPrincipalExtension.GetObjectId*
   name: GetObjectId
@@ -581,11 +587,11 @@ references:
   isSpec: "True"
   fullName: DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.ClearAsync
   nameWithType: IMsalTokenCacheProvider.ClearAsync
-- uid: DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.InitializeAsync(Microsoft.Identity.Client.ITokenCache)
+- uid: DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.InitializeAsync(ITokenCache)
   name: InitializeAsync(ITokenCache)
-  href: api/DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.html#DNVGL_OAuth_Web_TokenCache_IMsalTokenCacheProvider_InitializeAsync_Microsoft_Identity_Client_ITokenCache_
-  commentId: M:DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.InitializeAsync(Microsoft.Identity.Client.ITokenCache)
-  fullName: DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.InitializeAsync(Microsoft.Identity.Client.ITokenCache)
+  href: api/DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.html#DNVGL_OAuth_Web_TokenCache_IMsalTokenCacheProvider_InitializeAsync_ITokenCache_
+  commentId: M:DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.InitializeAsync(ITokenCache)
+  fullName: DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.InitializeAsync(ITokenCache)
   nameWithType: IMsalTokenCacheProvider.InitializeAsync(ITokenCache)
 - uid: DNVGL.OAuth.Web.TokenCache.IMsalTokenCacheProvider.InitializeAsync*
   name: InitializeAsync
@@ -613,11 +619,11 @@ references:
   isSpec: "True"
   fullName: DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.ClearAsync
   nameWithType: MsalAbstractTokenCacheProvider.ClearAsync
-- uid: DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.InitializeAsync(Microsoft.Identity.Client.ITokenCache)
+- uid: DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.InitializeAsync(ITokenCache)
   name: InitializeAsync(ITokenCache)
-  href: api/DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.html#DNVGL_OAuth_Web_TokenCache_MsalAbstractTokenCacheProvider_InitializeAsync_Microsoft_Identity_Client_ITokenCache_
-  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.InitializeAsync(Microsoft.Identity.Client.ITokenCache)
-  fullName: DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.InitializeAsync(Microsoft.Identity.Client.ITokenCache)
+  href: api/DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.html#DNVGL_OAuth_Web_TokenCache_MsalAbstractTokenCacheProvider_InitializeAsync_ITokenCache_
+  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.InitializeAsync(ITokenCache)
+  fullName: DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.InitializeAsync(ITokenCache)
   nameWithType: MsalAbstractTokenCacheProvider.InitializeAsync(ITokenCache)
 - uid: DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.InitializeAsync*
   name: InitializeAsync
@@ -626,11 +632,11 @@ references:
   isSpec: "True"
   fullName: DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.InitializeAsync
   nameWithType: MsalAbstractTokenCacheProvider.InitializeAsync
-- uid: DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.OnBeforeWriteAsync(Microsoft.Identity.Client.TokenCacheNotificationArgs)
+- uid: DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.OnBeforeWriteAsync(TokenCacheNotificationArgs)
   name: OnBeforeWriteAsync(TokenCacheNotificationArgs)
-  href: api/DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.html#DNVGL_OAuth_Web_TokenCache_MsalAbstractTokenCacheProvider_OnBeforeWriteAsync_Microsoft_Identity_Client_TokenCacheNotificationArgs_
-  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.OnBeforeWriteAsync(Microsoft.Identity.Client.TokenCacheNotificationArgs)
-  fullName: DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.OnBeforeWriteAsync(Microsoft.Identity.Client.TokenCacheNotificationArgs)
+  href: api/DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.html#DNVGL_OAuth_Web_TokenCache_MsalAbstractTokenCacheProvider_OnBeforeWriteAsync_TokenCacheNotificationArgs_
+  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.OnBeforeWriteAsync(TokenCacheNotificationArgs)
+  fullName: DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.OnBeforeWriteAsync(TokenCacheNotificationArgs)
   nameWithType: MsalAbstractTokenCacheProvider.OnBeforeWriteAsync(TokenCacheNotificationArgs)
 - uid: DNVGL.OAuth.Web.TokenCache.MsalAbstractTokenCacheProvider.OnBeforeWriteAsync*
   name: OnBeforeWriteAsync
@@ -707,22 +713,22 @@ references:
   isSpec: "True"
   fullName: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenByAuthorizationCode
   nameWithType: MsalAppBuilder.AcquireTokenByAuthorizationCode
-- uid: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenByAuthorizationCode``1(Microsoft.AspNetCore.Authentication.RemoteAuthenticationContext{``0})
+- uid: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenByAuthorizationCode``1(RemoteAuthenticationContext{``0})
   name: AcquireTokenByAuthorizationCode<TOptions>(RemoteAuthenticationContext<TOptions>)
-  href: api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.html#DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_AcquireTokenByAuthorizationCode__1_Microsoft_AspNetCore_Authentication_RemoteAuthenticationContext___0__
-  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenByAuthorizationCode``1(Microsoft.AspNetCore.Authentication.RemoteAuthenticationContext{``0})
+  href: api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.html#DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_AcquireTokenByAuthorizationCode__1_RemoteAuthenticationContext___0__
+  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenByAuthorizationCode``1(RemoteAuthenticationContext{``0})
   name.vb: AcquireTokenByAuthorizationCode(Of TOptions)(RemoteAuthenticationContext(Of TOptions))
-  fullName: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenByAuthorizationCode<TOptions>(Microsoft.AspNetCore.Authentication.RemoteAuthenticationContext<TOptions>)
-  fullName.vb: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenByAuthorizationCode(Of TOptions)(Microsoft.AspNetCore.Authentication.RemoteAuthenticationContext(Of TOptions))
+  fullName: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenByAuthorizationCode<TOptions>(RemoteAuthenticationContext<TOptions>)
+  fullName.vb: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenByAuthorizationCode(Of TOptions)(RemoteAuthenticationContext(Of TOptions))
   nameWithType: MsalAppBuilder.AcquireTokenByAuthorizationCode<TOptions>(RemoteAuthenticationContext<TOptions>)
   nameWithType.vb: MsalAppBuilder.AcquireTokenByAuthorizationCode(Of TOptions)(RemoteAuthenticationContext(Of TOptions))
-- uid: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent(Microsoft.AspNetCore.Http.HttpContext,System.String[])
+- uid: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent(HttpContext,System.String[])
   name: AcquireTokenSilent(HttpContext, String[])
-  href: api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.html#DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_AcquireTokenSilent_Microsoft_AspNetCore_Http_HttpContext_System_String___
-  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent(Microsoft.AspNetCore.Http.HttpContext,System.String[])
+  href: api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.html#DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_AcquireTokenSilent_HttpContext_System_String___
+  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent(HttpContext,System.String[])
   name.vb: AcquireTokenSilent(HttpContext, String())
-  fullName: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent(Microsoft.AspNetCore.Http.HttpContext, System.String[])
-  fullName.vb: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent(Microsoft.AspNetCore.Http.HttpContext, System.String())
+  fullName: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent(HttpContext, System.String[])
+  fullName.vb: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent(HttpContext, System.String())
   nameWithType: MsalAppBuilder.AcquireTokenSilent(HttpContext, String[])
   nameWithType.vb: MsalAppBuilder.AcquireTokenSilent(HttpContext, String())
 - uid: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent*
@@ -732,11 +738,11 @@ references:
   isSpec: "True"
   fullName: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.AcquireTokenSilent
   nameWithType: MsalAppBuilder.AcquireTokenSilent
-- uid: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.ClearUserTokenCache(Microsoft.AspNetCore.Http.HttpContext)
+- uid: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.ClearUserTokenCache(HttpContext)
   name: ClearUserTokenCache(HttpContext)
-  href: api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.html#DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_ClearUserTokenCache_Microsoft_AspNetCore_Http_HttpContext_
-  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.ClearUserTokenCache(Microsoft.AspNetCore.Http.HttpContext)
-  fullName: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.ClearUserTokenCache(Microsoft.AspNetCore.Http.HttpContext)
+  href: api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.html#DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_ClearUserTokenCache_HttpContext_
+  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.ClearUserTokenCache(HttpContext)
+  fullName: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.ClearUserTokenCache(HttpContext)
   nameWithType: MsalAppBuilder.ClearUserTokenCache(HttpContext)
 - uid: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.ClearUserTokenCache*
   name: ClearUserTokenCache
@@ -745,11 +751,11 @@ references:
   isSpec: "True"
   fullName: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.ClearUserTokenCache
   nameWithType: MsalAppBuilder.ClearUserTokenCache
-- uid: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.GetAccount(Microsoft.AspNetCore.Http.HttpContext)
+- uid: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.GetAccount(HttpContext)
   name: GetAccount(HttpContext)
-  href: api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.html#DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_GetAccount_Microsoft_AspNetCore_Http_HttpContext_
-  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.GetAccount(Microsoft.AspNetCore.Http.HttpContext)
-  fullName: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.GetAccount(Microsoft.AspNetCore.Http.HttpContext)
+  href: api/DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.html#DNVGL_OAuth_Web_TokenCache_MsalAppBuilder_GetAccount_HttpContext_
+  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.GetAccount(HttpContext)
+  fullName: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.GetAccount(HttpContext)
   nameWithType: MsalAppBuilder.GetAccount(HttpContext)
 - uid: DNVGL.OAuth.Web.TokenCache.MsalAppBuilder.GetAccount*
   name: GetAccount
@@ -764,19 +770,19 @@ references:
   commentId: T:DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider
   fullName: DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider
   nameWithType: MsalTokenCacheProvider
-- uid: DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.#ctor(Microsoft.Extensions.Caching.Distributed.IDistributedCache,Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions)
+- uid: DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.#ctor(IDistributedCache,DistributedCacheEntryOptions)
   name: MsalTokenCacheProvider(IDistributedCache, DistributedCacheEntryOptions)
-  href: api/DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.html#DNVGL_OAuth_Web_TokenCache_MsalTokenCacheProvider__ctor_Microsoft_Extensions_Caching_Distributed_IDistributedCache_Microsoft_Extensions_Caching_Distributed_DistributedCacheEntryOptions_
-  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.#ctor(Microsoft.Extensions.Caching.Distributed.IDistributedCache,Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions)
-  fullName: DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.MsalTokenCacheProvider(Microsoft.Extensions.Caching.Distributed.IDistributedCache, Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions)
+  href: api/DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.html#DNVGL_OAuth_Web_TokenCache_MsalTokenCacheProvider__ctor_IDistributedCache_DistributedCacheEntryOptions_
+  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.#ctor(IDistributedCache,DistributedCacheEntryOptions)
+  fullName: DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.MsalTokenCacheProvider(IDistributedCache, DistributedCacheEntryOptions)
   nameWithType: MsalTokenCacheProvider.MsalTokenCacheProvider(IDistributedCache, DistributedCacheEntryOptions)
-- uid: DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.#ctor(Microsoft.Extensions.Caching.Distributed.IDistributedCache,Microsoft.Extensions.Options.IOptions{Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions})
+- uid: DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.#ctor(IDistributedCache,IOptions{DistributedCacheEntryOptions})
   name: MsalTokenCacheProvider(IDistributedCache, IOptions<DistributedCacheEntryOptions>)
-  href: api/DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.html#DNVGL_OAuth_Web_TokenCache_MsalTokenCacheProvider__ctor_Microsoft_Extensions_Caching_Distributed_IDistributedCache_Microsoft_Extensions_Options_IOptions_Microsoft_Extensions_Caching_Distributed_DistributedCacheEntryOptions__
-  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.#ctor(Microsoft.Extensions.Caching.Distributed.IDistributedCache,Microsoft.Extensions.Options.IOptions{Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions})
+  href: api/DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.html#DNVGL_OAuth_Web_TokenCache_MsalTokenCacheProvider__ctor_IDistributedCache_IOptions_DistributedCacheEntryOptions__
+  commentId: M:DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.#ctor(IDistributedCache,IOptions{DistributedCacheEntryOptions})
   name.vb: MsalTokenCacheProvider(IDistributedCache, IOptions(Of DistributedCacheEntryOptions))
-  fullName: DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.MsalTokenCacheProvider(Microsoft.Extensions.Caching.Distributed.IDistributedCache, Microsoft.Extensions.Options.IOptions<Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions>)
-  fullName.vb: DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.MsalTokenCacheProvider(Microsoft.Extensions.Caching.Distributed.IDistributedCache, Microsoft.Extensions.Options.IOptions(Of Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions))
+  fullName: DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.MsalTokenCacheProvider(IDistributedCache, IOptions<DistributedCacheEntryOptions>)
+  fullName.vb: DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.MsalTokenCacheProvider(IDistributedCache, IOptions(Of DistributedCacheEntryOptions))
   nameWithType: MsalTokenCacheProvider.MsalTokenCacheProvider(IDistributedCache, IOptions<DistributedCacheEntryOptions>)
   nameWithType.vb: MsalTokenCacheProvider.MsalTokenCacheProvider(IDistributedCache, IOptions(Of DistributedCacheEntryOptions))
 - uid: DNVGL.OAuth.Web.TokenCache.MsalTokenCacheProvider.#ctor*

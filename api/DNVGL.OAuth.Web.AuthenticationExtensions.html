@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class AuthenticationExtensions
    ">
-    <meta name="generator" content="docfx 2.56.4.0">
+    <meta name="generator" content="docfx 2.51.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -80,44 +80,20 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">AuthenticationExtensions</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DNVGL.OAuth.Web.html">DNVGL.OAuth.Web</a></h6>
   <h6><strong>Assembly</strong>: DNVGL.OAuth.Web.dll</h6>
   <h5 id="DNVGL_OAuth_Web_AuthenticationExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class AuthenticationExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class AuthenticationExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=170">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=170">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_AuthenticationExtensions_AddDistributedTokenCache_" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache*"></a>
-  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddDistributedTokenCache_Microsoft_Extensions_DependencyInjection_IServiceCollection_DNVGL_OAuth_Web_OidcOptions_System_Action_Microsoft_Extensions_Caching_Distributed_DistributedCacheEntryOptions__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache(Microsoft.Extensions.DependencyInjection.IServiceCollection,DNVGL.OAuth.Web.OidcOptions,System.Action{Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions})">AddDistributedTokenCache(IServiceCollection, OidcOptions, Action&lt;DistributedCacheEntryOptions&gt;)</h4>
+  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddDistributedTokenCache_IServiceCollection_DNVGL_OAuth_Web_OidcOptions_Action_DistributedCacheEntryOptions__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddDistributedTokenCache(IServiceCollection,DNVGL.OAuth.Web.OidcOptions,Action{DistributedCacheEntryOptions})">AddDistributedTokenCache(IServiceCollection, OidcOptions, Action&lt;DistributedCacheEntryOptions&gt;)</h4>
   <div class="markdown level1 summary"><p>Setups distributed cache for MSAL token to OidcOptions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -136,7 +112,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
+        <td><span class="xref">IServiceCollection</span></td>
         <td><span class="parametername">services</span></td>
         <td></td>
       </tr>
@@ -146,7 +122,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions</span>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<span class="xref">DistributedCacheEntryOptions</span>&gt;</td>
         <td><span class="parametername">cacheSetupAction</span></td>
         <td></td>
       </tr>
@@ -162,17 +138,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
+        <td><span class="xref">IServiceCollection</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=43">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=43">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt*"></a>
-  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_Microsoft_AspNetCore_Authentication_AuthenticationBuilder_System_Action_System_Collections_Generic_Dictionary_System_String_DNVGL_OAuth_Web_JwtOptions___" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{System.Collections.Generic.Dictionary{System.String,DNVGL.OAuth.Web.JwtOptions}})">AddJwt(AuthenticationBuilder, Action&lt;Dictionary&lt;String, JwtOptions&gt;&gt;)</h4>
+  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_AuthenticationBuilder_Action_Dictionary_System_String_DNVGL_OAuth_Web_JwtOptions___" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder,Action{Dictionary{System.String,DNVGL.OAuth.Web.JwtOptions}})">AddJwt(AuthenticationBuilder, Action&lt;Dictionary&lt;String, JwtOptions&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -190,12 +166,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.AuthenticationBuilder</span></td>
+        <td><span class="xref">AuthenticationBuilder</span></td>
         <td><span class="parametername">builder</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="DNVGL.OAuth.Web.JwtOptions.html">JwtOptions</a>&gt;&gt;</td>
+        <td><span class="xref">Action</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="DNVGL.OAuth.Web.JwtOptions.html">JwtOptions</a>&gt;&gt;</td>
         <td><span class="parametername">setupAction</span></td>
         <td></td>
       </tr>
@@ -211,17 +187,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.AuthenticationBuilder</span></td>
+        <td><span class="xref">AuthenticationBuilder</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=55">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=55">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt*"></a>
-  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_Microsoft_AspNetCore_Authentication_AuthenticationBuilder_System_Collections_Generic_Dictionary_System_String_DNVGL_OAuth_Web_JwtOptions__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Collections.Generic.Dictionary{System.String,DNVGL.OAuth.Web.JwtOptions})">AddJwt(AuthenticationBuilder, Dictionary&lt;String, JwtOptions&gt;)</h4>
+  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_AuthenticationBuilder_Dictionary_System_String_DNVGL_OAuth_Web_JwtOptions__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder,Dictionary{System.String,DNVGL.OAuth.Web.JwtOptions})">AddJwt(AuthenticationBuilder, Dictionary&lt;String, JwtOptions&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -239,12 +215,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.AuthenticationBuilder</span></td>
+        <td><span class="xref">AuthenticationBuilder</span></td>
         <td><span class="parametername">builder</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="DNVGL.OAuth.Web.JwtOptions.html">JwtOptions</a>&gt;</td>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="DNVGL.OAuth.Web.JwtOptions.html">JwtOptions</a>&gt;</td>
         <td><span class="parametername">schemaOptions</span></td>
         <td></td>
       </tr>
@@ -260,17 +236,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.AuthenticationBuilder</span></td>
+        <td><span class="xref">AuthenticationBuilder</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=24">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=24">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt*"></a>
-  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_Microsoft_AspNetCore_Authentication_AuthenticationBuilder_System_Collections_Generic_IEnumerable_Microsoft_Extensions_Configuration_IConfigurationSection__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Collections.Generic.IEnumerable{Microsoft.Extensions.Configuration.IConfigurationSection})">AddJwt(AuthenticationBuilder, IEnumerable&lt;IConfigurationSection&gt;)</h4>
+  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddJwt_AuthenticationBuilder_IEnumerable_IConfigurationSection__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddJwt(AuthenticationBuilder,IEnumerable{IConfigurationSection})">AddJwt(AuthenticationBuilder, IEnumerable&lt;IConfigurationSection&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -288,12 +264,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.AuthenticationBuilder</span></td>
+        <td><span class="xref">AuthenticationBuilder</span></td>
         <td><span class="parametername">builder</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">Microsoft.Extensions.Configuration.IConfigurationSection</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">IConfigurationSection</span>&gt;</td>
         <td><span class="parametername">sections</span></td>
         <td></td>
       </tr>
@@ -309,71 +285,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.AuthenticationBuilder</span></td>
+        <td><span class="xref">AuthenticationBuilder</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=124">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=105">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc*"></a>
-  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_Microsoft_AspNetCore_Authentication_AuthenticationBuilder_DNVGL_OAuth_Web_OidcOptions_System_Action_Microsoft_AspNetCore_Authentication_Cookies_CookieAuthenticationOptions__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,DNVGL.OAuth.Web.OidcOptions,System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions})">AddOidc(AuthenticationBuilder, OidcOptions, Action&lt;CookieAuthenticationOptions&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AuthenticationBuilder AddOidc(this AuthenticationBuilder builder, OidcOptions oidcOptions, Action&lt;CookieAuthenticationOptions&gt; cookieSetupAction = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.AuthenticationBuilder</span></td>
-        <td><span class="parametername">builder</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DNVGL.OAuth.Web.OidcOptions.html">OidcOptions</a></td>
-        <td><span class="parametername">oidcOptions</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions</span>&gt;</td>
-        <td><span class="parametername">cookieSetupAction</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.AuthenticationBuilder</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=105">View Source</a>
-  </span>
-  <a id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc*"></a>
-  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_Microsoft_AspNetCore_Authentication_AuthenticationBuilder_System_Action_DNVGL_OAuth_Web_OidcOptions__System_Action_Microsoft_AspNetCore_Authentication_Cookies_CookieAuthenticationOptions__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{DNVGL.OAuth.Web.OidcOptions},System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions})">AddOidc(AuthenticationBuilder, Action&lt;OidcOptions&gt;, Action&lt;CookieAuthenticationOptions&gt;)</h4>
+  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_AuthenticationBuilder_Action_DNVGL_OAuth_Web_OidcOptions__Action_CookieAuthenticationOptions__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(AuthenticationBuilder,Action{DNVGL.OAuth.Web.OidcOptions},Action{CookieAuthenticationOptions})">AddOidc(AuthenticationBuilder, Action&lt;OidcOptions&gt;, Action&lt;CookieAuthenticationOptions&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -391,17 +313,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.AuthenticationBuilder</span></td>
+        <td><span class="xref">AuthenticationBuilder</span></td>
         <td><span class="parametername">builder</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="DNVGL.OAuth.Web.OidcOptions.html">OidcOptions</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="DNVGL.OAuth.Web.OidcOptions.html">OidcOptions</a>&gt;</td>
         <td><span class="parametername">oidcSetupAction</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions</span>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<span class="xref">CookieAuthenticationOptions</span>&gt;</td>
         <td><span class="parametername">cookieSetupAction</span></td>
         <td></td>
       </tr>
@@ -417,22 +339,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.AuthenticationBuilder</span></td>
+        <td><span class="xref">AuthenticationBuilder</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=93">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=124">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc*"></a>
-  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_Microsoft_Extensions_DependencyInjection_IServiceCollection_DNVGL_OAuth_Web_OidcOptions_System_Action_Microsoft_AspNetCore_Authentication_Cookies_CookieAuthenticationOptions__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection,DNVGL.OAuth.Web.OidcOptions,System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions})">AddOidc(IServiceCollection, OidcOptions, Action&lt;CookieAuthenticationOptions&gt;)</h4>
+  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_AuthenticationBuilder_DNVGL_OAuth_Web_OidcOptions_Action_CookieAuthenticationOptions__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(AuthenticationBuilder,DNVGL.OAuth.Web.OidcOptions,Action{CookieAuthenticationOptions})">AddOidc(AuthenticationBuilder, OidcOptions, Action&lt;CookieAuthenticationOptions&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AuthenticationBuilder AddOidc(this IServiceCollection services, OidcOptions oidcOptions, Action&lt;CookieAuthenticationOptions&gt; cookieSetupAction = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static AuthenticationBuilder AddOidc(this AuthenticationBuilder builder, OidcOptions oidcOptions, Action&lt;CookieAuthenticationOptions&gt; cookieSetupAction = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -445,8 +367,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
-        <td><span class="parametername">services</span></td>
+        <td><span class="xref">AuthenticationBuilder</span></td>
+        <td><span class="parametername">builder</span></td>
         <td></td>
       </tr>
       <tr>
@@ -455,7 +377,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions</span>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<span class="xref">CookieAuthenticationOptions</span>&gt;</td>
         <td><span class="parametername">cookieSetupAction</span></td>
         <td></td>
       </tr>
@@ -471,17 +393,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.AuthenticationBuilder</span></td>
+        <td><span class="xref">AuthenticationBuilder</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=82">View Source</a>
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=82">View Source</a>
   </span>
   <a id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc*"></a>
-  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_DNVGL_OAuth_Web_OidcOptions__System_Action_Microsoft_AspNetCore_Authentication_Cookies_CookieAuthenticationOptions__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{DNVGL.OAuth.Web.OidcOptions},System.Action{Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions})">AddOidc(IServiceCollection, Action&lt;OidcOptions&gt;, Action&lt;CookieAuthenticationOptions&gt;)</h4>
+  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_IServiceCollection_Action_DNVGL_OAuth_Web_OidcOptions__Action_CookieAuthenticationOptions__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(IServiceCollection,Action{DNVGL.OAuth.Web.OidcOptions},Action{CookieAuthenticationOptions})">AddOidc(IServiceCollection, Action&lt;OidcOptions&gt;, Action&lt;CookieAuthenticationOptions&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -499,17 +421,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
+        <td><span class="xref">IServiceCollection</span></td>
         <td><span class="parametername">services</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="DNVGL.OAuth.Web.OidcOptions.html">OidcOptions</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="DNVGL.OAuth.Web.OidcOptions.html">OidcOptions</a>&gt;</td>
         <td><span class="parametername">oidcSetupAction</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions</span>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<span class="xref">CookieAuthenticationOptions</span>&gt;</td>
         <td><span class="parametername">cookieSetupAction</span></td>
         <td></td>
       </tr>
@@ -525,7 +447,61 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Authentication.AuthenticationBuilder</span></td>
+        <td><span class="xref">AuthenticationBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=93">View Source</a>
+  </span>
+  <a id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc*"></a>
+  <h4 id="DNVGL_OAuth_Web_AuthenticationExtensions_AddOidc_IServiceCollection_DNVGL_OAuth_Web_OidcOptions_Action_CookieAuthenticationOptions__" data-uid="DNVGL.OAuth.Web.AuthenticationExtensions.AddOidc(IServiceCollection,DNVGL.OAuth.Web.OidcOptions,Action{CookieAuthenticationOptions})">AddOidc(IServiceCollection, OidcOptions, Action&lt;CookieAuthenticationOptions&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AuthenticationBuilder AddOidc(this IServiceCollection services, OidcOptions oidcOptions, Action&lt;CookieAuthenticationOptions&gt; cookieSetupAction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IServiceCollection</span></td>
+        <td><span class="parametername">services</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DNVGL.OAuth.Web.OidcOptions.html">OidcOptions</a></td>
+        <td><span class="parametername">oidcOptions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">CookieAuthenticationOptions</span>&gt;</td>
+        <td><span class="parametername">cookieSetupAction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AuthenticationBuilder</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -538,13 +514,12 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dnvgl-one.visualstudio.com/DefaultCollection/Analytics%20Solutions%20China/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=21" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/dnvgl-one/Innersource/_git/DNVGL.SolutionPackage?path=DNVGL.OAuth.Web/AuthenticationExtensions.cs&amp;version=GBdoc&amp;line=21" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>
